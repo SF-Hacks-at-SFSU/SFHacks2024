@@ -1,24 +1,9 @@
 ---
-import ParallaxComponent from '../components/parallax/Parallax';
-// import { InlineScript } from '@astro/types';
-
+import ParallaxProvider from '../components/parallax/ParallaxProvider'
 ---
+
 <html>
-  <head>
-    <!-- ... -->
-  </head>
   <body>
-    <!-- ... -->
-
-    <ParallaxComponent client:load/>
-
-    <!-- Include the script tag here -->
-    <!-- <InlineScript>
-      {`
-        console.log("This is a custom script included in Astro.");
-      `}
-    </InlineScript> -->
-
-    <!-- ... -->
+    <ParallaxProvider client:load/>
   </body>
 </html>
