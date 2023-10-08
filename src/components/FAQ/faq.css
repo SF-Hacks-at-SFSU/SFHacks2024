@@ -1,0 +1,23 @@
+
+.banner {
+    margin-left: 32%;
+    margin-right: 32%;
+    border-radius: 20px;
+    font-size: 2.4em;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    padding: 15px;
+    color: aliceblue;
+    background-color: #132A3E;    
+}
+
+.container {
+    color: aliceblue;
+    background-color: #132A3E; 
+    padding: 25px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+}
