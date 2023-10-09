@@ -1,37 +1,31 @@
-import '@astrojs/react'
-import { useState } from 'react'
-import './faq.css'
+import '@astrojs/react';
+import { useState } from 'react';
+import './faq.css';
 
 export default function FAQ() {
 
-  const [open, setOpen] = useState(null);
+  const [open, setOpen] = useState(false);
 
-  const toggle = () => {
-    return console.log('clicked')
-    // if (open === i){
-    //   setOpen(null)
-    //   return console.log("here 1")
-    // }
-    // setOpen(i)
-    // return console.log("here 2")
-    
-  }
+
+  const handleOpen = (i) => setOpen(open != i ? false : true);
+
+  const reached = () => {return  console.log('click captured');}
 
     return ( 
       <main>
         <div>
-        <div className='faq-banner'>
-            <h2 className='faq-banner-text'>Frequently Asked Questions!</h2>
-        </div>
+          <div className='faq-banner'>
+              <h2 className='faq-banner-text'>Frequently Asked Questions!</h2>
+          </div>
           <div className='faq-main'>
             {data.map((item, i) => (
               <div>
-                <div className='faq-questions'>
+                <div open={open === true} className='faq-questions' onClick={() => setOpen(!open)} key={i}>
                   <ul className='faq-list'>
-                    <li onClickCapture={() => toggle }>{item.question} <span>+</span></li>
+                    <li className='faq-ques' >{item.question} <span>+</span></li>
                   </ul>
                 </div>
-                <div className={open === i ? 'answer-visible' : 'answer'}>{item.answer}</div>
+                { open === true && <div className='answer-visible'>{item.answer}</div>}
               </div>
             ))}
           </div>
