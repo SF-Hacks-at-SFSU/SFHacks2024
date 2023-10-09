@@ -1,38 +1,48 @@
-import '@astrojs/react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import './faq.css';
 
-export default function FAQ() {
-
+const FAQ = () => {
+  // Added a default value to the `open` state variable.
   const [open, setOpen] = useState(false);
 
+  // Added a `handleClose` function to close the accordion item.
+  const handleClose = () => setOpen(false);
 
-  const handleOpen = (i) => setOpen(open != i ? false : true);
+  // Added a `handleToggle` function to toggle the accordion item open and closed.
+  const handleToggle = (i) => {
+    if (open === i) {
+      handleClose();
+    } else {
+      setOpen(i);
+    }
+  };
 
-  const reached = () => {return  console.log('click captured');}
-
-    return ( 
-      <main>
-        <div>
-          <div className='faq-banner'>
-              <h2 className='faq-banner-text'>Frequently Asked Questions!</h2>
-          </div>
-          <div className='faq-main'>
-            {data.map((item, i) => (
-              <div>
-                <div open={open === true} className='faq-questions' onClick={() => setOpen(!open)} key={i}>
-                  <ul className='faq-list'>
-                    <li className='faq-ques' >{item.question} <span>+</span></li>
-                  </ul>
-                </div>
-                { open === true && <div className='answer-visible'>{item.answer}</div>}
+  return (
+    <main>
+      <div>
+        <div className='faq-banner'>
+          <h2 className='faq-banner-text'>Frequently Asked Questions!</h2>
+        </div>
+        <div className='faq-main'>
+          {data.map((item, i) => (
+            <div key={i}>
+              <div
+                open={open === i}
+                className='faq-questions'
+                onClick={() => handleToggle(i)}
+              >
+                <ul className='faq-list'>
+                  <li className='faq-ques' >{item.question} <span>+</span></li>
+                </ul>
               </div>
-            ))}
-          </div>
-          </div>
-      </main>
-    ); 
-}
+              {open === i && <div className='answer-visible'>{item.answer}</div>}
+            </div>
+          ))}
+        </div>
+      </div>
+    </main>
+  );
+};
 
 const data = [
   { question:'What is a Hack-a-thon? ',
@@ -55,6 +65,6 @@ const data = [
     answer:'answer 9'},
     { question:'Can I volunteer to help with the event?',
     answer:'answer 10'}
-]
+];
 
-
+export default FAQ;
