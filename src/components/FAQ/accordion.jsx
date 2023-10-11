@@ -1,30 +1,25 @@
 import { useState } from "react";
-import './faq.css';
 
-const FAQ = () => {
+function Accordion() {
 
-    // Added a default value to the `open` state variable.
-    const [open, setOpen] = useState(false);
+  // Added a default value to the `open` state variable.
+  const [open, setOpen] = useState(false);
 
-    // Added a `handleClose` function to close the accordion item.
-    const handleClose = () => setOpen(false);
-  
-    // Added a `handleToggle` function to toggle the accordion item open and closed.
-    const handleToggle = (i) => {
-      if (open === i) {
-        handleClose();
-      } else {
-        setOpen(i);
-      }
+  // Added a `handleClose` function to close the accordion item.
+  const handleClose = () => setOpen(false);
+
+  // Added a `handleToggle` function to toggle the accordion item open and closed.
+  const handleToggle = (i) => {
+    if (open === i) {
+      handleClose();
+    } else {
+      setOpen(i);
     }
+  };
+
 
   return (
-    <main>
-      <div>
-        <div className='faq-banner'>
-          <h2 className='faq-banner-text'>Frequently Asked Questions!</h2>
-        </div>
-        <div className='faq-main'>
+    <div className='faq-main'>
           {data.map((item, i) => (
             <div key={i}>
               <div
@@ -40,12 +35,8 @@ const FAQ = () => {
             </div>
           ))}
     </div>
-      </div>
-    </main>
-  );
-};
-
-
+  )
+}
 
 const data = [
   { question:'What is a Hack-a-thon? ',
@@ -69,5 +60,4 @@ const data = [
     { question:'Can I volunteer to help with the event?',
     answer:'answer 10'}
 ];
-
-export default FAQ;
+export default Accordion
