@@ -1,10 +1,10 @@
 ---
 // Component Imports
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
 // import HackathonCountdown from '../components/HackathonCountdown.tsx';
 // import Schedule from '../components/Schedule';
-// import FAQ from '../components/FAQ';
+// import FAQ from '../components/FAQ/faq';
 // import Sponsors from '../components/Sponsors';
 // import AboutUs from '../components/AboutUs';
 import Counter from '../components/counter/Counter';
@@ -16,19 +16,20 @@ const someProps = {
 
 <Layout title="SF Hacks 2023">
 	<main>
-
-		<h1 class="flex items-center justify-center"> Hello SF Hackers</h1>
+		<h1 class="flex items-center justify-center">
+			Hello SF Hackers
+		</h1>
 
 		<Counter {...someProps} client:visible>
 			<p>react example</p>
 		</Counter>
 
-		
-
 		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
 		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+			To get started, open the directory <code>src/pages</code
+			> in your project.<br />
+			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro"
+			message above.
 		</p>
 		<ul role="list" class="link-card-grid">
 			<Card
@@ -95,7 +96,10 @@ const someProps = {
 	.instructions {
 		margin-bottom: 2rem;
 		border: 1px solid rgba(var(--accent-light), 25%);
-		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
+		background: linear-gradient(
+			rgba(var(--accent-dark), 66%),
+			rgba(var(--accent-dark), 33%)
+		);
 		padding: 1.5rem;
 		border-radius: 8px;
 	}
@@ -116,4 +120,4 @@ const someProps = {
 		gap: 2rem;
 		padding: 0;
 	}
-</style>../components/counter
+</style>../assets/components/Card.astro../assets/components/counter/Counter
