@@ -8,12 +8,15 @@ export default function SponsorPage() {
   const sponsors: Sponsor[] = [
     ["Los_Pollos.webp", "Gold", "http://www.lphishiring.com"],
     ["Duff.png", "Silver", "https://simpsons.fandom.com/wiki/Duff_Beer"],
-    [
-      "BloxxyCola.webp",
-      "Bronze",
-      "https://roblox.fandom.com/wiki/Catalog:Bloxy_Cola",
-    ],
+    ["BloxxyCola.webp", "Bronze", "https://roblox.fandom.com/wiki/Catalog:Bloxy_Cola"],
     ["Adidas_logo.png", "Gold", "https://www.adidas.com/us"],
+    ["google.png", "Platinum", "https://about.google"],
+    ["lyft.png", "Silver", "https://www.lyft.com"],
+    ["Vindertech.png", "Platinum", "https://fortnite.fandom.com/wiki/Vindertech"],
+    ["chipotle.png", "Bronze", "https://www.chipotle.com"],
+    ["cose.png", "Gold", "https://cose.sfsu.edu"],
+    ["business.png", "Gold", "https://cob.sfsu.edu"],
+    ["csld-logo.png", "Gold", "https://career.sfsu.edu"]
   ];
 
   return (
