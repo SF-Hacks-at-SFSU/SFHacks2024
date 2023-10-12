@@ -1,6 +1,6 @@
 import SponsorContainer from "./SponsorContainer";
 
-type Sponsor = [string, string, string];
+type Sponsor = [string, string, string]; //image name, tier(gold,silver,bronze),link
 export default function SponsorPage() {
   //const sponsorTier = "Gold";
   //const sponsorLink = "https://example.com/sponsor";
