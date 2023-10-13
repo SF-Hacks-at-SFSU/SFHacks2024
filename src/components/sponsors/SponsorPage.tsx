@@ -16,7 +16,10 @@ export default function SponsorPage() {
     ["chipotle.png", "Bronze", "https://www.chipotle.com"],
     ["cose.png", "Gold", "https://cose.sfsu.edu"],
     ["business.png", "Gold", "https://cob.sfsu.edu"],
-    ["csld-logo.png", "Gold", "https://career.sfsu.edu"]
+    ["adobe.png", "Silver", "https://helpx.adobe.com/support/xd.html"],
+    ["ibm.png", "Gold", "https://www.ibm.com/us-en"],
+    ["cahsi.png", "Gold", "https://cahsi.utep.edu"],
+    ["Workday_Logo.png", "Platinum", "https://www.workday.com"]
   ];
 
   return (
