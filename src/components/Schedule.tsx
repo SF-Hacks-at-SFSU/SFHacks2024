@@ -1,3 +1,5 @@
+//ts-ignore
+
 function Schedule() {
     const date = new Date();
     const showTime = date.getHours()
@@ -5,9 +7,9 @@ function Schedule() {
         + ":" + date.getSeconds();
  
     return (
-        <div className="App">
-            <h1 align="center">Current Time</h1>
-            <h2 align="center"> {showTime}</h2>
+        <div>
+            <h1>Current Time</h1>
+            <h2> {showTime}</h2>
         </div>
     );
 }
