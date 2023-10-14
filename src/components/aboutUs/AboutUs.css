@@ -1,0 +1,35 @@
+.usTitle {
+    color: white;
+    max-width: 60%;
+    margin: 2rem auto;
+    background-color: #132A3E;
+    padding: 50px 0px;
+    border-radius: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.sf {
+    color: #838FBA;
+}
+
+.description {
+    background-color: #132A3E;
+    margin: 2rem auto;
+    border-radius: 30px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    font-size: 24px;
+}
+
+.content {
+    width: 40%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.video {
+    
+}
