@@ -49,13 +49,13 @@ const FAQ = () => {
 
 const data = [
   { question:'What is a Hack-a-thon? ',
-    answer:'answer 1'},
+    answer:'A hackathon is a 24-hour event where individuals get together for a short period of time to collaborate on a project. The participants work rapidly and often work in groups to achieve their tasks.'},
     { question:'Who can attend and do I have to know coding?',
-    answer:'answer 2'},
+    answer:'No prior knowledge of computer science is needed! We encourage all levels of coders to attend. In our events, we dedicate officers/mentors/tutors to help all hackers find their beginnings in CS.'},
     { question:'When does the event start?',
     answer:'answer 3'},
     { question:' What’s the cost for attendance?',
-    answer:'answer 3'},
+    answer:'It’s a free event hosted by the SF Hacks Team at San Francisco State University.'},
     { question:'What kind of projects can I make?',
     answer:'answer 5'},
     { question:'Do I work by myself or with teams?',
