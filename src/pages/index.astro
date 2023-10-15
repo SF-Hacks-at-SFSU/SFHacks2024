@@ -3,22 +3,27 @@
 import Layout from "../layouts/Layout.astro";
 import SponsorPage from '../components/sponsors/SponsorPage';
 import AboutUs from '../components/aboutUs/AboutUs';
+import CountDown from "../components/countdown/Countdown";
 ---
 
 <Layout title="SF Hacks 2023">
 	<main>
-		<section class="hero">
-			<img class="hero--image" src="/sfhacks/logo_white&blue.png" />
-			<div class="hero--text">
+		<section class="home">
+			<div class="hero">
+				<img class="hero--image" src="/sfhacks/logo_white&blue.png" />
+				<div class="hero--text">
+					
+					<p>SF Hacks at San Francisco State University Presents</p>
+					<h1 class="hero--text--title">2024 HACKATHON</h1>
 
-				<p>SF Hacks at San Francisco State University Presents</p>
-				<h1 class="text-gradient">2024 HACKATHON</h1>
-				<p>April 5th -7th 2024 @SF State Annex 1</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				<button type="button">Register Now</button>
+					<CountDown client:load/>
+
+					<p class="hero--text--subtitle">April 5th - 7th 2024 @SF State Annex 1</p>
+					<button type="button">Register Now</button>
+				</div>
 			</div>
 		</section>
-		
+
 		<AboutUs/>
 		<SponsorPage/>
 	</main>
@@ -26,11 +31,19 @@ import AboutUs from '../components/aboutUs/AboutUs';
 
 <style>
 	.hero {
+		padding-bottom: 10vh;
+		background: #132A3E;
+		padding: 50px;
+
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		margin: 50px;
-		margin-left: 200px;
+		gap: 10%;
+		justify-content: center;	
+
+		background-image: url("/sfhacks/design element.png");
+		background-size: cover;
+		background-position-y: 70%;
 	}
 
 	.hero--image {
@@ -38,14 +51,28 @@ import AboutUs from '../components/aboutUs/AboutUs';
 	}
 
 	.hero--text {
+		width: 600px;
+		gap: 10px;
+
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+
 		color: rgba(245, 245, 245, 0.65);
 		font-family: 'Sen';
-		font-size: 14px;
+		font-size: 16px;
 		font-style: normal;
 		font-weight: 500;
 		line-height: normal;
+	}
+
+	.hero--text--title {
+		color: #EBEBEB;
+		text-align: center;
+		font-size: 52px;
+		font-style: normal;
+		font-weight: 900;
+		line-height: normal;
+		text-transform: uppercase;
 	}
 </style>
