@@ -1,10 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import ScheduleComponent from "../components/Schedule";
+import ScheduleComponent from "../components/schedule/schedule"
 ---
 
 <Layout title="Schedule">
     <main>
-        <ScheduleComponent />
+        <ScheduleComponent client:load />
     </main>
-</Layout>../assets/components/Schedule
+</Layout>

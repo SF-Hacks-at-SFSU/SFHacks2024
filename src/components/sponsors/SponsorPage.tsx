@@ -42,7 +42,7 @@ export default function SponsorPage() {
         {sponsors.map((sponsor: Sponsor, index: number) => (
           <div key={index} className="p-6">
             <SponsorContainer
-              sponsorLogo={`sponsors/${sponsor[0]}`} // Logo pathname
+              sponsorLogo={`/sponsors/${sponsor[0]}`} // Logo pathname
               sponsorTier={sponsor[1]} // Donation tier
               sponsorLink={sponsor[2]} // Link to webpage
             />
