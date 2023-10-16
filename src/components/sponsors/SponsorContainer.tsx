@@ -7,7 +7,7 @@ export default function SponsorContainer({
   sponsorTier: string;
   sponsorLink: string;
 }) {
-  let tierColor = "";
+  let tierColor: string;
   if (sponsorTier.toLocaleLowerCase() === "gold") {
     tierColor = "border-yellow-500";
   } else if (sponsorTier.toLocaleLowerCase() === "silver") {
