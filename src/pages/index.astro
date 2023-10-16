@@ -4,6 +4,7 @@ import Layout from "../layouts/Layout.astro";
 import SponsorPage from '../components/sponsors/SponsorPage';
 import AboutUs from '../components/aboutUs/AboutUs';
 import CountDown from "../components/countdown/Countdown";
+import Schedule from "../components/schedule/schedule";
 ---
 
 <Layout title="SF Hacks 2023">
@@ -24,6 +25,7 @@ import CountDown from "../components/countdown/Countdown";
 			</div>
 		</section>
 
+		<Schedule client:load/>
 		<AboutUs/>
 		<SponsorPage/>
 	</main>
