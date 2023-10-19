@@ -1,15 +1,22 @@
-import '@astrojs/react';
-import { useState } from 'react';
+import { useState } from "react";
 import './faq.css';
 
-export default function FAQ() {
+const FAQ = () => {
 
-  const [open, setOpen] = useState(false);
+    // Added a default value to the `open` state variable.
+    const [open, setOpen] = useState(false);
 
-
-  const handleOpen = (i) => setOpen(open != i ? false : true);
-
-  const reached = () => {return  console.log('click captured');}
+    // Added a `handleClose` function to close the accordion item.
+    const handleClose = () => setOpen(false);
+  
+    // Added a `handleToggle` function to toggle the accordion item open and closed.
+    const handleToggle = (i) => {
+      if (open === i) {
+        handleClose();
+      } else {
+        setOpen(i);
+      }
+    }
 
     return ( 
       <main>
@@ -37,16 +44,44 @@ export default function FAQ() {
       </main>
     ); 
 }
+  return (
+    <main>
+      <div>
+        <div className='faq-banner'>
+          <h2 className='faq-banner-text'>Frequently Asked Questions!</h2>
+        </div>
+        <div className='faq-main'>
+          {data.map((item, i) => (
+            <div key={i}>
+              <div
+                open={open === i}
+                className='faq-questions'
+                onClick={() => handleToggle(i)}
+              >
+                <ul className='faq-list'>
+                  <li className='faq-ques' >{item.question} <span>+</span></li>
+                </ul>
+              </div>
+              {open === i && <div className='answer-visible'>{item.answer}</div>}
+            </div>
+          ))}
+    </div>
+      </div>
+    </main>
+  );
+};
+
+
 
 const data = [
   { question:'What is a Hack-a-thon? ',
-    answer:'answer 1'},
+    answer:'A hackathon is a 24-hour event where individuals get together for a short period of time to collaborate on a project. The participants work rapidly and often work in groups to achieve their tasks.'},
     { question:'Who can attend and do I have to know coding?',
-    answer:'answer 2'},
+    answer:'No prior knowledge of computer science is needed! We encourage all levels of coders to attend. In our events, we dedicate officers/mentors/tutors to help all hackers find their beginnings in CS.'},
     { question:'When does the event start?',
     answer:'answer 3'},
     { question:' What’s the cost for attendance?',
-    answer:'answer 3'},
+    answer:'It’s a free event hosted by the SF Hacks Team at San Francisco State University.'},
     { question:'What kind of projects can I make?',
     answer:'answer 5'},
     { question:'Do I work by myself or with teams?',
@@ -59,6 +94,6 @@ const data = [
     answer:'answer 9'},
     { question:'Can I volunteer to help with the event?',
     answer:'answer 10'}
-]
+];
 
-
+export default FAQ;

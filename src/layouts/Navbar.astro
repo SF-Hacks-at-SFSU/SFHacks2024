@@ -4,37 +4,30 @@
 <html>
     <head>
     </head>
-    <body>
+
         
 
-  <nav class="bg-white border-gray-200 dark:bg-gray-900">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-      <a href="/" class="flex items-center">
-          <img src="/Mascot.png" class="h-8 mr-3" alt="Cyber Gator" />
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">SF Hacks 2023</span>
-      </a>
-      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-          <span class="sr-only">Open main menu</span>
-          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-          </svg>
-      </button>
-      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-          <li>
-            <a href="#" class="nav-button">About</a>
-          </li>
-          <li>
-            <a href="/faq/" class="nav-button">FAQ</a>
-          </li>
-          <li>
-            <a href="#" class="nav-button">Schedule</a>
-          </li>
-          <li>
-            <a href="#" class="nav-button">Contact</a>
-          </li>
-        </ul>
-      </div>
+  <nav> <!--this is the background of the whole navbar -->
+    <a class="nav--left" href="/">
+      <img class="nav--logo" src="/sfhacks/Mascot.png" alt="Cyber Gator" />
+      <h1 class="nav--title">SF Hacks 2023</h1>
+    </a>
+    
+    <div class="nav--right" id="navbar-default">
+      <ul class="nav--list">
+        <li>
+          <a href="/faq/" class="nav--button">FAQ</a>
+        </li>
+        <li>
+          <a href="/schedule/" class="nav--button">Schedule</a>
+        </li>
+        <li>
+          <a href="/sponsors/" class="nav--button">Sponsors</a>
+        </li>
+        <li>
+          <a href="#" class="register--button">Register</a>
+        </li>
+      </ul>
     </div>
   </nav>
   
@@ -43,14 +36,76 @@
 </html>
 
 <style>
-  /* @tailwind base;
+  @tailwind base;
   @tailwind components;
   @tailwind utilities;
-
-  @layer components { */
     
-    .nav-buttons {
-      @apply block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent
-    }
-  /* } */
+  nav {
+    overflow: hidden;
+    margin-top: 0;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+  }
+
+  .nav--left {
+    width: 25%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10%;
+    overflow-wrap: normal;
+    color: black;
+  }
+
+  img {
+    height: 40%;
+    min-width: 40%;
+  }
+
+  .nav--title{
+    font-size: 40px;
+    
+    min-width: max-content;
+  }
+
+  .nav--right {
+    width: 25%;
+    margin-right: 5%;
+  }
+
+  .nav--list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .nav--button {
+    padding-bottom: 0.75rem;
+    margin: 1em;
+  }
+
+  .nav--button:hover {
+    border-color: #132A3E;
+    border-bottom: 0.25em solid;
+    cursor: pointer;
+    transition: 0.20s ease-in;
+  }
+
+  .register--button {
+    background-color: #132A3E;
+    color: #FFD6EC;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 1.5rem;
+    margin: 1em 1em;
+  }
 </style>
