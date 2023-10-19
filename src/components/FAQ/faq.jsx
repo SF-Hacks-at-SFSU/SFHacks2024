@@ -17,6 +17,10 @@ export default function FAQ() {
           <div className='faq-banner'>
               <h2 className='faq-banner-text'>Frequently Asked Questions!</h2>
           </div>
+          <div className='faq-tab'>
+              <p id="faq-tab1">SF Hacks</p>
+              <p id="faq-tab2">Frequently Asked Questions</p>
+          </div>
           <div className='faq-main'>
             {data.map((item, i) => (
               <div>
