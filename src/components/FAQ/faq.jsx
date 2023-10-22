@@ -44,33 +44,6 @@ const FAQ = () => {
       </main>
     ); 
 }
-  return (
-    <main>
-      <div>
-        <div className='faq-banner'>
-          <h2 className='faq-banner-text'>Frequently Asked Questions!</h2>
-        </div>
-        <div className='faq-main'>
-          {data.map((item, i) => (
-            <div key={i}>
-              <div
-                open={open === i}
-                className='faq-questions'
-                onClick={() => handleToggle(i)}
-              >
-                <ul className='faq-list'>
-                  <li className='faq-ques' >{item.question} <span>+</span></li>
-                </ul>
-              </div>
-              {open === i && <div className='answer-visible'>{item.answer}</div>}
-            </div>
-          ))}
-    </div>
-      </div>
-    </main>
-  );
-};
-
 
 
 const data = [
@@ -96,4 +69,4 @@ const data = [
     answer:'answer 10'}
 ];
 
-export default FAQ;
+export default null;
