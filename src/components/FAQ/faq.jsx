@@ -18,38 +18,16 @@ const FAQ = () => {
       }
     }
 
-    return ( 
-      <main>
-        <div>
-          <div className='faq-banner'>
-              <h2 className='faq-banner-text'>Frequently Asked Questions!</h2>
-          </div>
-          <div className='faq-tab'>
-              <p id="faq-tab1">SF Hacks</p>
-              <p id="faq-tab2">Frequently Asked Questions</p>
-          </div>
-          <div className='faq-main'>
-            {data.map((item, i) => (
-              <div>
-                <div open={open === true} className='faq-questions' onClick={() => setOpen(!open)} key={i}>
-                  <ul className='faq-list'>
-                    <li className='faq-ques' >{item.question} <span>+</span></li>
-                  </ul>
-                </div>
-                { open === true && <div className='answer-visible'>{item.answer}</div>}
-              </div>
-            ))}
-          </div>
-          </div>
-      </main>
-    ); 
-}
   return (
     <main>
       <div>
         <div className='faq-banner'>
           <h2 className='faq-banner-text'>Frequently Asked Questions!</h2>
         </div>
+        <div className='faq-tab'>
+              <p id="faq-tab1">SF Hacks</p>
+              <p id="faq-tab2">Frequently Asked Questions</p>
+          </div>
         <div className='faq-main'>
           {data.map((item, i) => (
             <div key={i}>
