@@ -1,6 +1,7 @@
 
 import { useState } from "react";
 import './faq.css';
+
 const data = [
   { question:'What is a Hack-a-thon? ',
     answer:'A hackathon is a 24-hour event where individuals get together for a short period of time to collaborate on a project. The participants work rapidly and often work in groups to achieve their tasks.'},
@@ -68,5 +69,3 @@ export default function  FAQ () {
       </main>
     ); 
 }
-
-
