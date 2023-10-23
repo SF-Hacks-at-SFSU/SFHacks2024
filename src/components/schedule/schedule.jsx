@@ -6,8 +6,8 @@ export default function Schedule() {
     const [page, setPage] = useState(0);
     var content = data[page];
 
-    const leftContent = content.slice(0,12).map(x => <li>{x}</li>);
-    const rightContent = content.slice(12,24).map(x => <li>{x}</li>);
+    const leftContent = content.slice(0,12).map((x,index) => <li key={index}>{x}</li>);
+    const rightContent = content.slice(12,24).map((x,index) => <li key = {index}>{x}</li>);
     return (
         <div className="schedule">
             <div className="schedule--buttons">
