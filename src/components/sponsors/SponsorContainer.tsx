@@ -18,7 +18,7 @@ export default function SponsorContainer({
 
   return (
     <div className={`border-4 ${tierColor}`}>
-      <a href={sponsorLink}>
+      <a href={sponsorLink}  target="_blank">
         <img
           src={sponsorLogo}
           alt="Logo"
