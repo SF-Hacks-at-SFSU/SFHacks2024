@@ -22,8 +22,8 @@ export default function SponsorPage() {
       "https://fortnite.fandom.com/wiki/Vindertech",
     ],
     ["chipotle.png", "Bronze", "https://www.chipotle.com"],
-    ["cose.png", "Gold", "https://cose.sfsu.edu"],
-    ["business.png", "Gold", "https://cob.sfsu.edu"],
+    //["cose.png", "Gold", "https://cose.sfsu.edu"],
+    //["business.png", "Gold", "https://cob.sfsu.edu"],
     ["adobe.png", "Silver", "https://helpx.adobe.com/support/xd.html"],
     ["ibm.png", "Gold", "https://www.ibm.com/us-en"],
     ["cahsi.png", "Gold", "https://cahsi.utep.edu"],
@@ -32,13 +32,13 @@ export default function SponsorPage() {
 
   return (
     <>
-      <div className="py-12 bg-sfDarkBlue rounded-lg mb-16 shadow-lg">
+      <div className="py-12 bg-sfDarkBlue mb-16 shadow-lg">
         <h1 className="font-bold text-center font-mono text-6xl py-4 text-white">
-        Our <span className=" text-sfGreyBlue">Sponsors... </span>
+         Our current  <span className=" text-sfGreyBlue">Sponsors... </span>
         </h1>
       </div>
 
-      <div className="flex flex-row justify-center">
+      <div className="grid grid-cols-4 content-center place-items-center justify-center">
         {sponsors.map((sponsor: Sponsor, index: number) => (
           <div key={index} className="p-6">
             <SponsorContainer
