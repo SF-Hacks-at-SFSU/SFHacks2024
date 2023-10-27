@@ -20,6 +20,10 @@ function Accordion() {
 
 
   return (
+    <div>
+    <div className='faq-banner'>
+              <h2 className='faq-banner-text'>Frequently Asked Questions!</h2>
+    </div>
     <div className='faq-main'>
           {data.map((item, i) => (
             <div key={i}>
@@ -36,6 +40,7 @@ function Accordion() {
             </div>
           ))}
     </div>
+  </div>
   )
 }
 
