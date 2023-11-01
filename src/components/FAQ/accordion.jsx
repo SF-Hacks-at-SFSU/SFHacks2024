@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './faq.css';
+import './faq.css'
 
 function Accordion() {
 

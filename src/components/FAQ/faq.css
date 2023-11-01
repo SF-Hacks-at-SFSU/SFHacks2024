@@ -67,3 +67,17 @@
 .faq-list {
     list-style-type:disc;
 }
+@media only screen and (max-width: 600px) {
+    .faq-questions {
+        color: #FFF5D9;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    .faq-main {
+        max-width: 80%;
+        margin: 1rem auto;
+        background-color: #132A3E;
+        padding: 20px 0px 20px 20px ;
+        border-radius: 30px;
+    }
+} 

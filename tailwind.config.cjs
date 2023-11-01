@@ -8,6 +8,10 @@ module.exports = {
 				sfDarkBlue : '#132A3E',
 			}
 		},
+		fontFamily: {
+			sen: ['Sen']
+			
+		}
 	},
 	plugins: [],
 }
