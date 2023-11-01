@@ -68,6 +68,22 @@
     list-style-type:disc;
 }
 @media only screen and (max-width: 600px) {
+    .faq-banner {
+        max-width: 85%;
+        margin: 1.5rem auto;
+        background-color: #132A3E;
+        padding: 20px 0px;
+        border-radius: 20px;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .faq-banner-text {
+        color:#FFF5D9;
+        font-weight: 500;
+        font-size: 1.5rem;
+        text-shadow:5px 5px 5px black;
+    }
     .faq-questions {
         color: #FFF5D9;
         font-weight: 400;
