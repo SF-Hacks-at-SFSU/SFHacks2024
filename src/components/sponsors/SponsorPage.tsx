@@ -4,6 +4,7 @@ type Sponsor = [string, string, string]; //image name, tier(gold,silver,bronze),
 export default function SponsorPage() {
   //const sponsorTier = "Gold";
   //const sponsorLink = "https://example.com/sponsor";
+  // grid image styling: grid grid-cols-4 content-center place-items-center justify-center
 
   const sponsors: Sponsor[] = [
     ["Los_Pollos.webp", "Gold", "http://www.lphishiring.com"],
@@ -34,12 +35,12 @@ export default function SponsorPage() {
     <>
       <div className="py-12 bg-sfDarkBlue mb-16 shadow-lg">
         <h1 className="font-bold text-center font-mono text-6xl py-4 text-white">
-         Our current  <span className=" text-sfGreyBlue">Sponsors... </span>
+          Our current <span className=" text-sfGreyBlue">Sponsors... </span>
         </h1>
       </div>
 
-      <div className="grid grid-cols-4 content-center place-items-center justify-center">
-        {sponsors.map((sponsor: Sponsor, index: number) => (
+      <div className="items-center">
+        {/*{sponsors.map((sponsor: Sponsor, index: number) => (
           <div key={index} className="p-6">
             <SponsorContainer
               sponsorLogo={`/sponsors/${sponsor[0]}`} // Logo pathname
@@ -47,7 +48,10 @@ export default function SponsorPage() {
               sponsorLink={sponsor[2]} // Link to webpage
             />
           </div>
-        ))}
+        ))}*/}
+        <div className="h-60 w-full items-center">
+          <h1 className="text-center text-3xl "> ****Sponsors TBD**** </h1>
+        </div>
       </div>
     </>
   );
