@@ -7,6 +7,7 @@ module.exports = {
 				sfGreyBlue : '#838FBA',
 				sfDarkBlue : '#132A3E',
 				sfDarkerBlue: '#132330',
+				sfPink: '#FFD6EC'
 			}
 		},
 		fontFamily: {
