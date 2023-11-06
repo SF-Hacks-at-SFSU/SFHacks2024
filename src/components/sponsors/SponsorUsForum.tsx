@@ -14,12 +14,14 @@ export default function SponsorUsForum() {
           className=" bg-gray-600 text-gray-300 p-2.5"
           id="name"
           name="name"
+          placeholder="Your name..."
         />
         <label className="text-white">Email</label>
         <input
           type="text"
           className=" bg-gray-600 text-gray-300 p-2.5 "
           name="email"
+          placeholder="Your Email.."
         />
         <label className="text-white">Message</label>
 
@@ -27,6 +29,7 @@ export default function SponsorUsForum() {
           type="text"
           className=" bg-gray-600 text-gray-300 p-2.5 pb-14"
           name="body"
+          placeholder="Your Message..."
         />
         <button className=" bg-sfGreyBlue rounded-md text-white w-fit px-2 place-self-end ">
           {" "}
