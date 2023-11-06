@@ -60,8 +60,10 @@
     cursor: pointer;
 }
 .answer-visible{
-    color: #FFF5D9;
-    max-height: 9999px;
+    color: #addefb;
+    font-size: 18px;
+    margin: 0.5rem;
+    border-style: solid;
 }
 
 .faq-list {

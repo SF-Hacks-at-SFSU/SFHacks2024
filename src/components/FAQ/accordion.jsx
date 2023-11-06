@@ -36,7 +36,7 @@ function Accordion() {
                   <li className='faq-ques' >{item.question} <span>+</span></li>
                 </ul>
               </div>
-              {open === i && <div className='answer-visible'>{item.answer}</div>}
+              {open === i && <div className='answer-visible bg-blue-950 p-3 rounded-md'>{item.answer}</div>}
             </div>
           ))}
     </div>
