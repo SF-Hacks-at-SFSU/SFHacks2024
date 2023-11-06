@@ -10,7 +10,7 @@
 .faq-banner {
     max-width: 45%;
     margin: 2rem auto;
-    background-color: #132A3E;
+    background-color: #132330;
     padding: 20px 0px;
     border-radius: 20px;
     text-align: center;
@@ -27,7 +27,7 @@
 .faq-main {
     max-width: 60%;
     margin: 3rem auto;
-    background-color: #132A3E;
+    background-color: #132330;
     padding: 20px 0px 20px 40px ;
     border-radius: 30px;
 }
