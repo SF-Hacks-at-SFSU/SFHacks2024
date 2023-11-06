@@ -10,15 +10,15 @@ export default function SponsorUsForum() {
       >
         <label className="text-white">Name</label>
         <input
-          type="text"
+          type="subject"
           className=" bg-gray-600 text-gray-300 p-2.5"
           id="name"
-          name="name"
+          name="subject"
           placeholder="Your name..."
         />
         <label className="text-white">Email</label>
         <input
-          type="text"
+          type="email"
           className=" bg-gray-600 text-gray-300 p-2.5 "
           name="email"
           placeholder="Your Email.."
