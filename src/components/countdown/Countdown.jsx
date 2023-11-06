@@ -6,12 +6,13 @@ export default function CountDown() {
 
     var countDownDate = new Date("Apr 5, 2024 00:00:00");
 
-	const [timer, setTimer] = useState({
-		days: null,
-		hours: null,
-		minutes: null,
-		seconds: null
-	});
+	const total = Date.parse(countDownDate) - Date.parse(new Date());
+	const seconds = Math.floor((total / 1000) % 60);
+	const minutes = Math.floor((total / 1000 / 60) % 60);
+	const hours = Math.floor((total / 1000 / 60 / 60) % 24);
+	const days = Math.floor(total / (1000 * 60 * 60 * 24));
+
+	const [timer, setTimer] = useState({days, hours, minutes, seconds});
 
 	const getTimeRemaining = (e) => {
 		const total = Date.parse(e) - Date.parse(new Date());
