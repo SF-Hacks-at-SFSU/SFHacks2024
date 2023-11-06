@@ -1,10 +1,11 @@
 .countdown {
     display: flex;
     flex-direction: row;
-    width: 500px;
+    width: auto;
     justify-content: space-between;
     align-items: center;
     margin: 20px;
+    gap: 5vw
 }
 
 .countdown--elements {
@@ -22,4 +23,23 @@
 
 .countdown--elements > p {
     font-size: 40px;
+}
+
+@media (max-width: 540px) {
+    .countdown--elements {
+        display: flex;
+        flex-direction: column;
+        gap: auto;
+        align-items: center;
+        color: #FFF5D9;
+        text-align: center;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .countdown--elements > p {
+        font-size: 1.5rem;
+    }
 }
