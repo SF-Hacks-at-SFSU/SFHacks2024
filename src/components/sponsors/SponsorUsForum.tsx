@@ -36,6 +36,16 @@ export default function SponsorUsForum() {
           Submit
         </button>
       </form>
+      <p className="text-end p-2 text-white delay-1000">
+        {" "}
+        Form not working? Email us at{" "}
+        <a
+          href="mailto:sfhacksteam@gmail.com"
+          className=" pointer-events-auto text-yellow-400 hover:underline"
+        >
+          sfshacksteam@gmail.com{" "}
+        </a>
+      </p>
     </div>
   );
 }
