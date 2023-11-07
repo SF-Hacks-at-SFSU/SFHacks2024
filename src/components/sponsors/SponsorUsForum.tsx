@@ -4,7 +4,7 @@ export default function SponsorUsForum() {
       <h1 className="text-white text-3xl font-bold pb-4">Reach Us:</h1>
       <form
         className="flex flex-col gap-3"
-        action="mailto:akimtarasov@gmail.com"
+        action="mailto:sfhacksteam@gmail.com"
         method="get"
         encType="text/plain"
       >
