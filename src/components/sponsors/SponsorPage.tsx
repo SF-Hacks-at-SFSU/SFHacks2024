@@ -33,7 +33,7 @@ export default function SponsorPage() {
 
   return (
     <>
-      <div className="py-12 bg-sfDarkBlue mb-16 shadow-lg">
+      <div className="py-12 bg-sfDarkBlue mb-16">
         <h1 className="font-bold text-center font-mono text-6xl py-4 text-white">
           Our current <span className=" text-sfGreyBlue">Sponsors... </span>
         </h1>
