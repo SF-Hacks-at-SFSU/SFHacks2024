@@ -1,6 +1,6 @@
 export default function SponsorUsForum() {
   return (
-    <div className="bg-sfDarkerBlue w-auto h-auto px-4 py-4 md:w-1/2">
+    <div className="bg-sfDarkerBlue w-auto h-auto px-4 py-4">
       <h1 className="text-white text-3xl font-bold pb-4">Reach Us:</h1>
       <form
         className="flex flex-col gap-3"
