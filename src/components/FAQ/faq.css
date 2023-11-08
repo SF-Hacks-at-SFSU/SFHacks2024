@@ -69,6 +69,7 @@
 .faq-list {
     list-style-type:disc;
 }
+
 @media only screen and (max-width: 600px) {
     .faq-banner {
         max-width: 85%;
@@ -83,14 +84,20 @@
     .faq-banner-text {
         color:#FFF5D9;
         font-weight: 500;
-        font-size: 1.5rem;
+        font-size: 2rem;
         text-shadow:5px 5px 5px black;
     }
     .faq-questions {
         color: #FFF5D9;
         font-weight: 400;
         font-size: 1rem;
+        margin-bottom: 40px;
     }
+
+    .answer-visible {
+        margin-bottom: 40px;
+    }
+
     .faq-main {
         max-width: 80%;
         margin: 1rem auto;
