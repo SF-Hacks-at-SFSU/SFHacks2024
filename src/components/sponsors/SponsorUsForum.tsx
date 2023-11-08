@@ -13,7 +13,7 @@ export default function SponsorUsForum() {
           type="subject"
           className=" bg-gray-600 text-gray-300 p-2.5"
           id="name"
-          name="subject"
+          name="Subject"
           placeholder="Your name..."
         />
         <label className="text-white">Email</label>
@@ -31,12 +31,15 @@ export default function SponsorUsForum() {
           name="body"
           placeholder="Your Message..."
         />
-        <button className=" bg-sfGreyBlue rounded-md text-white w-fit px-2 place-self-end ">
+        <button
+          className=" bg-sfGreyBlue rounded-full text-sfPink w-fit p-2 place-self-end hover:bg-sky-900 text-xs font-semibold "
+          value="Submit"
+        >
           {" "}
           Submit
         </button>
       </form>
-      <p className="text-end p-2 text-white delay-1000">
+      <p className="text-end p-2 text-white text-xs">
         {" "}
         Form not working? Email us at{" "}
         <a
