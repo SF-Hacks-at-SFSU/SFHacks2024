@@ -6,7 +6,7 @@ export default function SponsorUsForum() {
         className="flex flex-col gap-3"
         action="mailto:sfhacksteam@gmail.com"
         method="get"
-        encType="text/plain"
+        encType="application/x-www-form-urlencoded"
       >
         <label className="text-white">Name</label>
         <input
