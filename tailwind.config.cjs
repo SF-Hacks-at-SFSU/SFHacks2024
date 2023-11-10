@@ -10,7 +10,8 @@ module.exports = {
 				sfGreyBlue : '#838FBA',
 				sfDarkBlue : '#132A3E',
 				sfDarkerBlue: '#132330',
-				sfPink: '#FFD6EC'
+				sfPink: '#FFD6EC',
+				sfLightBlue: '#2b455c'
 			}
 		},
 		fontFamily: {

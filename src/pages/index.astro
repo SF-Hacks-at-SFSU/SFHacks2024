@@ -21,7 +21,7 @@ import Accordion from "../components/FAQ/accordion";
 					<CountDown client:load/>
 
 					<p class="hero--text--subtitle">April 5th - 7th 2024 @SF State Annex 1</p>
-					<button type="button" class="bg-sfDarkerBlue p-4 rounded-full text-sfPink">Register Now</button>
+					<button type="button" class="bg-sfLightBlue mt-5 p-4 text-lg font-semibold rounded-full text-sfPink">Register Now</button>
 				</div>
 			</div>
 		</section>
@@ -34,10 +34,15 @@ import Accordion from "../components/FAQ/accordion";
 </Layout>
 
 <style>
+
+	body {
+		overflow: hidden;
+	}
+
 	.hero {
 		/* padding-bottom: 10vh; */
 		background: #132A3E;
-		padding: auto;
+		padding: 15%;
 		height: calc(100vh - 90px);
 		display: flex;
 		flex-direction: row;
@@ -51,7 +56,7 @@ import Accordion from "../components/FAQ/accordion";
 	}
 
 	.hero--image {
-		height: 600px;
+		height: 480px;
 	}
 
 	@media (max-width: 1100px) {
@@ -70,25 +75,26 @@ import Accordion from "../components/FAQ/accordion";
 
 		color: rgba(245, 245, 245, 0.65);
 		font-family: 'Sen';
-		font-size: 1rem;
+		font-size: 1.25rem;
 		font-style: normal;
-		font-weight: 500;
+		font-weight: 550;
 		line-height: normal;
+		text-align: center;
 	}
 
 	.hero--text--title {
 		color: #EBEBEB;
 		text-align: center;
-		font-size: 3.25rem;
+		font-size: 4rem;
 		font-style: normal;
-		font-weight: 900;
 		line-height: normal;
 		text-transform: uppercase;
+		font-weight: 1000;
 	}
 
 	@media (max-width: 540px) {
 		.hero--text {
-			font-size: 0.65rem;
+			font-size: 1rem;
 		}
 
 		.hero--text--title {

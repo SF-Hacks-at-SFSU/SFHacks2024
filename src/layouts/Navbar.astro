@@ -9,8 +9,8 @@
 
   <nav>
     <a class="nav--left" href="/">
-      <!-- <img class="nav--logo" src="" alt="Nav-Logo" /> -->
-      <h1 class="nav--title">SF Hacks 2024</h1>
+      <img class="nav--logo" src="/sfhacks/logo_w_background.png" alt="Nav-Logo" />
+      <!-- <h1 class="nav--title">SF Hacks 2024</h1> -->
     </a>
     
     <div class="nav--right">
@@ -73,16 +73,17 @@
     display: flex;
     flex-direction: row;
     margin-right: auto;
-    justify-content: space-evenly;
+    justify-content: left;
     align-items: center;
     gap: 10%;
     overflow-wrap: normal;
     color: black;
   }
 
-  /* img {
-    max-height: 100px;
-  } */
+  .nav--logo {
+    object-fit: contain;
+    height: 60px;
+  }
 
   .nav--title{
     font-size: 40px;
@@ -109,6 +110,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-size: 1.25rem;
   }
 
   .nav--button {
@@ -124,7 +126,7 @@
   }
 
   .register--button {
-    background-color: #132330;
+    background-color: #2b455c;
     color: #FFD6EC;
     padding-left: 25px;
     padding-right: 25px;
@@ -173,7 +175,7 @@
   }
 
   .dropbtn:hover {
-    background-color: #111a23;
+    background-color: #466987;
   }
 
   /* Add a red background color to navbar links on hover */
