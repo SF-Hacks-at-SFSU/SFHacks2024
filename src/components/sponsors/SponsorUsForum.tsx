@@ -5,7 +5,7 @@ export default function SponsorUsForum() {
       <h1 className="text-white text-3xl font-bold pb-4">Reach Us:</h1>
       <form
         className="flex flex-col gap-3"
-        action="https://formspree.io/f/xvojyyag"
+        action="https://formspree.io/f/xpzgnnda"
         method="POST"
         id="sponsorForm"
       >
