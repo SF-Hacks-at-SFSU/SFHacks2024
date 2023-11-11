@@ -1,7 +1,7 @@
 import { useState } from "react";
 export default function SponsorUsForum() {
   return (
-    <div className="bg-sfLightBlue w-auto h-auto px-4 py-4">
+    <div className="bg-sfDarkBlue w-auto h-auto px-4 py-4">
       <h1 className="text-white text-3xl font-bold pb-4">Reach Us:</h1>
       <form
         className="flex flex-col gap-3"
@@ -12,7 +12,7 @@ export default function SponsorUsForum() {
         <label className="text-white">Name</label>
         <input
           type="subject"
-          className=" bg-gray-600 text-gray-300 p-2.5"
+          className=" bg-sfDarkBlue text-gray-300 p-2.5 border-b border-sfGreyBlue focus:border-sfPink focus:outline-none"
           id="name"
           name="Subject"
           placeholder="Your name..."
@@ -20,7 +20,7 @@ export default function SponsorUsForum() {
         <label className="text-white">Email</label>
         <input
           type="email"
-          className=" bg-gray-600 text-gray-300 p-2.5 "
+          className=" bg-sfDarkBlue text-gray-300 p-2.5 border-b border-sfGreyBlue focus:border-sfPink focus:outline-none"
           name="email"
           placeholder="Your Email.."
         />
@@ -28,12 +28,12 @@ export default function SponsorUsForum() {
 
         <input
           type="text"
-          className=" bg-gray-600 text-gray-300 p-2.5 pb-14"
+          className=" bg-sfDarkBlue text-gray-300 p-2.5 pb-14 border-b border-sfGreyBlue focus:border-sfPink focus:outline-none"
           name="body"
           placeholder="Your Message..."
         />
         <button
-          className=" bg-sfGreyBlue rounded-full text-sfPink w-fit p-2 place-self-end hover:bg-sky-900 text-s font-semibold "
+          className=" bg-sfDarkBlue rounded-full bg-sfPink w-fit p-2 place-self-end hover:bg-sky-900 text-s font-semibold "
           value="Submit"
         >
           {" "}
