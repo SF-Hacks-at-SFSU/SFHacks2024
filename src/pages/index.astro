@@ -66,7 +66,6 @@ import Accordion from "../components/FAQ/accordion";
     height: calc(100vh - 90px);
     display: flex;
     flex-direction: row;
-    align-items: center;
     gap: 10%;
     justify-content: center;
 
@@ -82,6 +81,12 @@ import Accordion from "../components/FAQ/accordion";
   @media (max-width: 1100px) {
     .hero--image {
       display: none;
+    }
+  }
+
+  @media (min-width: 540px) {
+    .hero {
+      align-items: center;
     }
   }
 
