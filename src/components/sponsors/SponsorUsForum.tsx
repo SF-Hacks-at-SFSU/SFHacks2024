@@ -2,7 +2,9 @@ import { useState } from "react";
 export default function SponsorUsForum() {
   return (
     <div className="bg-sfDarkBlue w-auto h-auto px-4 py-4">
-      <h1 className="text-white text-3xl font-bold pb-4">Reach Us:</h1>
+      <h1 className="text-white text-3xl font-bold pb-4 text-center">
+        Reach Us
+      </h1>
       <form
         className="flex flex-col gap-3"
         action="https://formspree.io/f/xpzgnnda"
@@ -33,7 +35,7 @@ export default function SponsorUsForum() {
           placeholder="Your Message..."
         />
         <button
-          className=" bg-sfDarkBlue rounded-full bg-sfPink w-fit p-2 place-self-end hover:bg-sky-900 text-s font-semibold "
+          className=" text-sfDarkBlue rounded-full bg-sfPink  p-2 place-self-center w-48 overflow-hidden whitespace-nowrap hover:bg-sky-900 text-s font-semibold "
           value="Submit"
         >
           {" "}
@@ -45,7 +47,7 @@ export default function SponsorUsForum() {
         Form not working? Email us at{" "}
         <a
           href="mailto:sfhacksteam@gmail.com"
-          className=" pointer-events-auto text-yellow-400 hover:underline"
+          className=" pointer-events-auto text-sfPink hover:underline"
         >
           sfshacksteam@gmail.com{" "}
         </a>
