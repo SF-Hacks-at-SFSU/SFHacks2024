@@ -60,10 +60,10 @@ const data = [
     { question:'Who will I meet at the event?',
     answer:'You will meet other students, event organizers, or even company/sponsor representatives.'},
     { question:'Is there a theme for the project?',
-    answer:'answer 8'},
+    answer:'Yes, there is a theme planned for the event. We\'ll unveil it as we approach the event date.'},
     { question:'What other events will be held in the convention?',
-    answer:'answer 9'},
+    answer:'There will be a host of events including workshops from sponsors and ACM student leaders, panels, showcases, and fun mini-games!'},
     { question:'Can I volunteer to help with the event?',
-    answer:'answer 10'}
+    answer: <p>You can volunteer!  Simply sign up using the registration button at the top of the page or go <a className="underline font-bold" href="bit.ly/sfhacks2024-register">here</a> and select the volunteer option on the first page.</p>}
 ];
 export default Accordion
