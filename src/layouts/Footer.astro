@@ -1,13 +1,15 @@
----
-const platform = "Instagram";
-const username = "sf.hacks";
----
+import Social from './Social.astro' 
 
 <footer>
 	<p>
-		Learn more about my projects on <a
-			href={`https://www.${platform}.com/${username}`}
-			>{platform}</a
-		>!
+		MLH Code of Conduct <a href={`https://static.mlh.io/docs/mlh-code-of-conduct.pdf`}></a>!
 	</p>
 </footer>
+
+<style>
+	footer {
+	  display: flex;
+	  gap: 1rem;
+	  margin-top: 2rem;
+	}
+      </style>
