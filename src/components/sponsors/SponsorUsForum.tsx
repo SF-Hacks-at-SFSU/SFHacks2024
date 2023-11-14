@@ -28,10 +28,10 @@ export default function SponsorUsForum() {
         />
         <label className="text-white">Message</label>
 
-        <input
-          type="text"
-          className=" bg-sfDarkBlue text-gray-300 p-2.5 pb-14 border-b border-sfGreyBlue focus:border-sfPink focus:outline-none"
-          name="body"
+        <textarea
+          id="message"
+          className="  bg-sfDarkBlue text-gray-300 p-2.5 pb-14 border-b border-sfGreyBlue focus:border-sfPink focus:outline-none resize-none"
+          name="message"
           placeholder="Your Message..."
         />
         <button
