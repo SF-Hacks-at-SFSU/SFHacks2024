@@ -53,8 +53,6 @@ const data = [
     answer:'The event starts on April 5th and last until April 7th.'},
     { question:' What’s the cost for attendance?',
     answer:'It’s a free event hosted by the SF Hacks Team at San Francisco State University.'},
-    { question:'What kind of projects can I make?',
-    answer:'answer 5'},
     { question:'Do I work by myself or with teams?',
     answer:'You can work either in a solo project, or you can choose to work with other students as a team.'},
     { question:'Who will I meet at the event?',
