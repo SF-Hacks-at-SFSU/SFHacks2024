@@ -19,7 +19,7 @@ export default function Footer() {
 
     return (
         <div className="foot">
-            <p>Powered By</p>
+            <p>Sponsored By</p>
             <div className="sponsors"></div>
             {sponsorsMap}
         </div>

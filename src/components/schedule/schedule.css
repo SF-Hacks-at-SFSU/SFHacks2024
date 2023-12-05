@@ -1,6 +1,6 @@
 .schedule {
     margin: 50px auto;
-    width: 1000px;
+    width: 40vw;
 
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
     justify-content: space-around;
     align-content: center;
     height: 40px;
-    font-size: 24px;
+    font-size: 20px;
     color: antiquewhite;
 }
 
@@ -33,7 +33,7 @@
     border: 2px solid #000;
     background: #132A3E;
     text-align: center;
-    width: 200px;
+    width: 5rem;
     padding: 0px 20px 0px 20px;
 }
 
