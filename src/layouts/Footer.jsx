@@ -5,7 +5,7 @@ export default function Footer() {
     const sponsors = [
         {
             name: "Sticker Mule",
-            path: "public/sponsors/sticker-mule-logo-light-bg-stacked.svg",
+            path: "/public/sponsors/sticker-mule-logo-light-bg-stacked.svg",
             link: "https://www.stickermule.com/"
         },
         // {
