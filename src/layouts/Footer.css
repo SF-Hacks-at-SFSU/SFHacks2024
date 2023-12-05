@@ -1,0 +1,22 @@
+.foot {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    background: #132330;
+    
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: #2b455c;
+    letter-spacing: 0.25rem;
+}
+
+.sponsor--image {
+    width: 9vh;
+}
+
+.sponsor--image:hover {
+    width: 10vh;
+}

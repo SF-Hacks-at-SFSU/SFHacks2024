@@ -1,6 +1,6 @@
 ---
 import Navbar from "./Navbar.astro";
-
+import Footer from "./Footer.jsx";
 interface Props {
 	title: string;
 }
@@ -22,10 +22,14 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
+
 	<Navbar />
+
 	<body>
 		<slot />
 	</body>
+
+	<Footer />	
 
 	<style is:global>
 		@font-face {
