@@ -2,6 +2,7 @@
   "name": "galactic-group",
   "type": "module",
   "version": "0.0.1",
+  "description": "Our organization's purpose is to plan and host California's most talented collegiate hackers, designers, and developers, to a 3 day hackathon. Join us next spring to kickoff SF Hacks 2024!",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
