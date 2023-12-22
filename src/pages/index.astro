@@ -2,6 +2,7 @@
 // Component Imports
 import Layout from "../layouts/Layout.astro";
 import CountDown from "../components/countdown/Countdown";
+import FAQ from "../components/FAQ/accordion"
 ---
 
 <Layout title="SF Hacks 2024">
@@ -54,6 +55,10 @@ import CountDown from "../components/countdown/Countdown";
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="faq">
+      <FAQ />
     </section>
   </main>
 </Layout>
@@ -126,5 +131,10 @@ import CountDown from "../components/countdown/Countdown";
     .hero--text--title {
       font-size: 2.5rem;
     }
+  }
+
+  .faq {
+    padding: 10px;
+    background-color:#254d70;
   }
 </style>
