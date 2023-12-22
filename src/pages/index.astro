@@ -1,11 +1,7 @@
 ---
 // Component Imports
 import Layout from "../layouts/Layout.astro";
-import SponsorPage from "../components/sponsors/SponsorPage";
-import AboutUs from "../components/aboutUs/AboutUs";
 import CountDown from "../components/countdown/Countdown";
-import Schedule from "../components/schedule/schedule";
-import Accordion from "../components/FAQ/accordion";
 ---
 
 <Layout title="SF Hacks 2024">
@@ -14,54 +10,55 @@ import Accordion from "../components/FAQ/accordion";
       <div class="hero">
         <img class="hero--image" src="/sfhacks/logopupleBluewithtext.png" />
         <div class="hero--text">
-          <p>SF Hacks and ACM at SFSU Presents</p>
+          <p>Cohosted by Association of Computer Machinery (ACM) at SFSU</p>
+
           <h1 class="hero--text--title">SF HACKS 2024</h1>
 
           <CountDown client:load />
-
-          <a
-            href="https://www.google.com/maps/place/Student+Life+Events+Center+%2F+Annex+I/@37.7264505,-122.4847354,17z/data=!3m1!4b1!4m6!3m5!1s0x808f7da51ff323d3:0x74d61cd2d66d4dbb!8m2!3d37.7264463!4d-122.4821605!16s%2Fg%2F1hdz113p8?entry=ttu"
-            class="hero--text--subtitle"
-            target="_blank"
-          >
+          <p>
             April 5th - 7th 2024
-            <span class="border-b hover:border-sfPink">
+            <a
+              class="border-b hover:border-sfPink"
+              href="https://www.google.com/maps/place/Student+Life+Events+Center+%2F+Annex+I/@37.7264505,-122.4847354,17z/data=!3m1!4b1!4m6!3m5!1s0x808f7da51ff323d3:0x74d61cd2d66d4dbb!8m2!3d37.7264463!4d-122.4821605!16s%2Fg%2F1hdz113p8?entry=ttu"
+              class="hero--text--subtitle"
+              target="_blank"
+            >
               @ SF State Annex 1
-            </span>
-            <p class="text-white mt-5">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis
-              autem neque possimus quod architecto voluptates corrupti. Odio
-              doloremque itaque error quod labore ducimus, vero quos, sunt
-              aperiam at voluptates in!
-            </p>
-          </a>
-          <div class="inline-block">
-            <button
-              type="button"
-              class="text-sfLightBlue mt-5 p-4 text-lg font-semibold rounded-full bg-sfPink mr-5"
-              >Register Now</button
-            >
-            <button
-              type="button"
-              class="bg-sfLightBlue mt-5 p-4 text-lg font-semibold rounded-full text-sfPink"
-              >Join Discord</button
-            >
+            </a>
+          </p>
+
+          <p class="text-white mt-5">
+            Our organization's purpose is to plan and host California's most
+            talented collegiate hackers, designers, and developers, to a 3 day
+            hackathon. Join us next spring to kickoff SF Hacks 2024!
+          </p>
+
+          <div
+            class="inline-block flex flex-row flex-wrap justify-center gap-5 sm:mb-10"
+          >
+            <a href="https://bit.ly/sfhacks2024-apply" target="_blank"
+              ><button
+                type="button"
+                class="text-sfLightBlue mt-5 p-4 text-lg font-semibold rounded-full bg-sfPink"
+                >Register Now</button
+              >
+            </a>
+
+            <a href="https://discord.gg/P5PsDR6G7W" target="_blank"
+              ><button
+                type="button"
+                class="bg-sfLightBlue mt-5 p-4 text-lg font-semibold rounded-full text-sfPink"
+                >Join Discord</button
+              >
+            </a>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- <Schedule client:load/>
-		<AboutUs/>
-		<SponsorPage/>
-		<Accordion client:load/> -->
   </main>
 </Layout>
 
 <style>
-  body {
-    overflow: hidden;
-  }
 
   .hero {
     /* padding-bottom: 10vh; */
@@ -70,7 +67,6 @@ import Accordion from "../components/FAQ/accordion";
     height: calc(100vh - 90px);
     display: flex;
     flex-direction: row;
-    align-items: center;
     gap: 10%;
     justify-content: center;
 
@@ -80,12 +76,18 @@ import Accordion from "../components/FAQ/accordion";
   }
 
   .hero--image {
-    height: 480px;
+    height: 70vh;
   }
 
   @media (max-width: 1100px) {
     .hero--image {
       display: none;
+    }
+  }
+
+  @media (min-width: 540px) {
+    .hero {
+      align-items: center;
     }
   }
 
@@ -99,7 +101,7 @@ import Accordion from "../components/FAQ/accordion";
 
     color: rgba(245, 245, 245, 0.65);
     font-family: "Sen";
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 550;
     line-height: normal;
@@ -122,7 +124,7 @@ import Accordion from "../components/FAQ/accordion";
     }
 
     .hero--text--title {
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
   }
 </style>

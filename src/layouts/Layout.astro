@@ -1,6 +1,6 @@
 ---
 import Navbar from "./Navbar.astro";
-
+import Footer from "./Footer.jsx";
 interface Props {
 	title: string;
 }
@@ -12,7 +12,7 @@ const { title } = Astro.props;
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
+		<meta name="description" content="Our organization's purpose is to plan and host California's most talented collegiate hackers, designers, and developers, to a 3 day hackathon. Join us next spring to kickoff SF Hacks 2024!" />
 		<meta name="viewport" content="width=device-width" />
 		<link
 			rel="icon"
@@ -22,10 +22,14 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
+
 	<Navbar />
+
 	<body>
 		<slot />
 	</body>
+
+	<Footer />	
 
 	<style is:global>
 		@font-face {

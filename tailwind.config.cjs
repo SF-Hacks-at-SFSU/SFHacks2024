@@ -4,7 +4,7 @@ module.exports = {
 	theme: {
 		extend: {
 			backgroundImage: {
-				'event' : "url('/sfhacks/event.jpg')"
+				'event' : "url('/sfhacks/eventPink.jpg')"
 			},
 			colors: {
 				sfGreyBlue : '#838FBA',

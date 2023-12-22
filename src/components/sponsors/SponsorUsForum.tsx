@@ -14,7 +14,7 @@ export default function SponsorUsForum() {
         <label className="text-white">Name</label>
         <input
           type="subject"
-          className=" bg-sfDarkBlue text-gray-300 p-2.5 border-b border-sfGreyBlue focus:border-sfPink focus:outline-none"
+          className=" transition-all duration-500 bg-sfDarkBlue text-gray-300 p-2.5 border-b border-sfGreyBlue focus:border-sfPink focus:outline-none"
           id="name"
           name="Subject"
           placeholder="Your name..."
@@ -22,16 +22,16 @@ export default function SponsorUsForum() {
         <label className="text-white">Email</label>
         <input
           type="email"
-          className=" bg-sfDarkBlue text-gray-300 p-2.5 border-b border-sfGreyBlue focus:border-sfPink focus:outline-none"
+          className=" transition-all duration-500 bg-sfDarkBlue text-gray-300 p-2.5 border-b border-sfGreyBlue focus:border-sfPink focus:outline-none"
           name="email"
           placeholder="Your Email.."
         />
         <label className="text-white">Message</label>
 
-        <input
-          type="text"
-          className=" bg-sfDarkBlue text-gray-300 p-2.5 pb-14 border-b border-sfGreyBlue focus:border-sfPink focus:outline-none"
-          name="body"
+        <textarea
+          id="message"
+          className=" transition-all duration-500 bg-sfDarkBlue text-gray-300 p-2.5 pb-14 border-b border-sfGreyBlue focus:border-sfPink focus:outline-none resize-none"
+          name="message"
           placeholder="Your Message..."
         />
         <button
