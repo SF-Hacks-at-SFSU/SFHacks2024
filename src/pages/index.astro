@@ -2,8 +2,8 @@
 // Component Imports
 import Layout from "../layouts/Layout.astro";
 import CountDown from "../components/countdown/Countdown";
-import FAQ from "../components/FAQ/accordion"
-import Sponsors from "../components/sponsors/sponsors.astro"
+import FAQ from "../components/FAQ/accordion";
+import Sponsors from "../components/sponsors/sponsors.astro";
 ---
 
 <Layout title="SF Hacks 2024">
@@ -59,17 +59,16 @@ import Sponsors from "../components/sponsors/sponsors.astro"
     </section>
 
     <section class="faq">
-      <FAQ client:load/>
+      <FAQ client:load />
     </section>
 
     <section class="sponsors">
-      <Sponsors client:load/>
+      <Sponsors />
     </section>
   </main>
 </Layout>
 
 <style>
-
   .hero {
     /* padding-bottom: 10vh; */
     background: #132a3e;
@@ -140,6 +139,6 @@ import Sponsors from "../components/sponsors/sponsors.astro"
 
   .faq {
     padding: 10px;
-    background-color:#254d70;
+    background-color: #254d70;
   }
 </style>
