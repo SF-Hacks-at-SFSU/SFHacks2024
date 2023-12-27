@@ -49,7 +49,7 @@ export default function SponsorUsForum() {
           href="mailto:sfhacksteam@gmail.com"
           className=" pointer-events-auto text-sfPink hover:underline"
         >
-          sfshacksteam@gmail.com{" "}
+          sfhacksteam@gmail.com{" "}
         </a>
       </p>
     </div>
