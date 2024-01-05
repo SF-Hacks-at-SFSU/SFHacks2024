@@ -1,7 +1,7 @@
 .foot {
     display: flex;
     flex-direction: row;
-    height: 10vh;
+    height: 19vh;
     align-items: center;
     justify-content: center;
     padding: 2vh;
@@ -14,9 +14,9 @@
 }
 
 .sponsor--image {
-    width: 9vh;
+    width: 17vh;
 }
 
 .sponsor--image:hover {
-    width: 10vh;
+    width: 19vh;
 }
