@@ -1,12 +1,10 @@
 .foot {
     display: flex;
     flex-direction: row;
-    height: 19vh;
+    height: 29.5dvh;
     align-items: center;
     justify-content: center;
-    padding: 2vh;
     background: #254d70;
-    
     font-weight: 900;
     font-size: 1.5rem;
     color: #132A3E;
@@ -14,9 +12,19 @@
 }
 
 .sponsor--image {
-    width: 17vh;
+    width: 30vh;
 }
 
-.sponsor--image:hover {
-    width: 19vh;
+@media (max-width: 768px){
+    .foot{
+        flex-direction: column;
+        height: 31dvh;
+    }
+    .footer-label{
+        margin: 3rem 0rem -1.5rem 0rem;
+    }
+    .sponsor--image{ 
+        top: 0;
+        width: 22dvh;
+    }
 }

@@ -22,7 +22,7 @@ export default function Footer() {
 
   return (
     <div className="foot">
-      <p>Sponsored By</p>
+      <p className="footer-label">Sponsored By</p>
       <div className="sponsors"></div>
       {sponsorsMap}
     </div>
