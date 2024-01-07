@@ -8,11 +8,11 @@ import Sponsors from "../components/sponsors/sponsors.astro";
 
 <Layout title="SF Hacks 2024">
   <a
-    id="mlh-trust-badge"
     style="display:block;max-width:100px;min-width:60px;position:absolute;left:180px;top:0;width:10%;z-index:10000"
     href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=red"
     target="_blank"
     ><img
+      class="mlh-trust-badge"
       src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg"
       alt="Major League Hacking 2024 Hackathon Season"
       style="width:100%"
@@ -99,16 +99,14 @@ import Sponsors from "../components/sponsors/sponsors.astro";
     height: 70vh;
   }
 
-  @media (max-width: 1100px) {
-    .hero--image {
-      display: none;
-    }
-  }
-
-  @media (min-width: 540px) {
-    .hero {
-      align-items: center;
-    }
+  .hero--text--title {
+    color: #ebebeb;
+    text-align: center;
+    font-size: 4rem;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    font-weight: 1000;
   }
 
   .hero--text {
@@ -128,23 +126,54 @@ import Sponsors from "../components/sponsors/sponsors.astro";
     text-align: center;
   }
 
-  .hero--text--title {
-    color: #ebebeb;
-    text-align: center;
-    font-size: 4rem;
-    font-style: normal;
-    line-height: normal;
-    text-transform: uppercase;
-    font-weight: 1000;
+  /* Laptop */
+  @media (max-width: 1024px) {
+    .hero--image {
+      display: none;
+    }
+
+    .mlh-trust-badge{
+      display: inline-block;
+    }
   }
 
-  @media (max-width: 540px) {
+  /*Tablet*/
+  @media (max-width: 768px) {
     .hero--text {
       font-size: 1rem;
     }
 
     .hero--text--title {
       font-size: 2.5rem;
+    }
+
+    .mlh-trust-badge{
+      display: inline-block;
+      margin-left: -100%;
+    }
+  }
+
+  @media (min-width: 540px) {
+    .hero {
+      align-items: center;
+    }
+  }
+
+  
+  /*Mobile*/
+  @media(max-width: 425px){
+
+    .hero--text {
+      font-size: 0.7rem;
+    }
+
+    .hero--text--title {
+      font-size: 2rem;
+    }
+
+    .mlh-trust-badge{
+      display: inline-block;
+      margin-left: -100%;
     }
   }
 
