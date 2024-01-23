@@ -5,7 +5,7 @@ export default function Footer() {
     {
       name: "Sticker Mule",
       path: "/sponsors/sticker-mule-logo-light-bg-stacked.svg",
-      link: "https://www.stickermule.com/",
+      link: "https://mule.to/p5h3",
     },
     // {
     //     name: "Los Pollos",
