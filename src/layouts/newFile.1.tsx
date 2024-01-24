@@ -1,67 +1,73 @@
----
-import RxHamburgerMenu from "react-icons/rx";
----
-
-<!doctype html>
-<html>
-  <head> </head>
-  <a
-    style="display:block;max-width:100px;min-width:60px;position:absolute;left:180px;top:0;width:10%;z-index:10000"
-    href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=red"
-    target="_blank"
-    ><img
-      class="mlh-trust-badge"
-      src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg"
-      alt="Major League Hacking 2024 Hackathon Season"
-      style="width:100%"
-    /></a
-  >
-  <nav>
-    <a class="nav--left" href="/">
-      <img class="nav--logo" src="/sfhacks/headlogo.svg" alt="Nav-Logo" />
-      <!-- <h1 class="nav--title">SF Hacks 2024</h1> -->
+/** @jsxImportSource astro */
+<Fragment>
+  import {RxHamburgerMenu}
+  {`   from "react-icons/rx"`};
+  <html>
+    <head> </head>
+    <a
+      style="display:block;max-width:100px;min-width:60px;position:absolute;left:180px;top:0;width:10%;z-index:10000"
+      href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=red"
+      target="_blank"
+    >
+      <img
+        class="mlh-trust-badge"
+        src="https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg"
+        alt="Major League Hacking 2024 Hackathon Season"
+        style="width:100%"
+      />
     </a>
+    <nav>
+      <a class="nav--left" href="/">
+        <img class="nav--logo" src="/sfhacks/headlogo.svg" alt="Nav-Logo" />
+        {/** <h1 class="nav--title">SF Hacks 2024</h1> */}
+      </a>
 
-    <div class="nav--right">
-      <ul class="nav--list">
-        <!-- <li>
-          <a href="/about--us/" class="nav--button">About Us</a>
-        </li> -->
-        <li>
-          <a href="/faq/" class="nav--button">FAQ</a>
-        </li>
-        <!-- <li>
-          <a href="/schedule/" class="nav--button">Schedule</a>
-        </li> -->
-        <li>
-          <a href="/sponsors/" class="nav--button">Sponsors</a>
-        </li>
-        <li>
-          <a
-            href="https://bit.ly/sfhacks2024-apply"
-            target="_blank"
-            class="register--button">Register</a
-          >
-        </li>
-      </ul>
-    </div>
-
-    <!-- mobile version -->
-
-    <div class="dropdown">
-      <button class="dropbtn register--button nav--button">
-        <img src="/public/sfhacks/whiteBurger.svg" class="w-10" />
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="/faq/">FAQ</a>
-        <!-- <a href="/schedule/">Schedule</a> -->
-        <a href="/sponsors/">Sponsors</a>
+      <div class="nav--right">
+        <ul class="nav--list">
+          {/** <li>
+      <a href="/about--us/" class="nav--button">About Us</a>
+    </li> */}
+          <li>
+            <a href="/faq/" class="nav--button">
+              FAQ
+            </a>
+          </li>
+          {/** <li>
+      <a href="/schedule/" class="nav--button">Schedule</a>
+    </li> */}
+          <li>
+            <a href="/sponsors/" class="nav--button">
+              Sponsors
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://bit.ly/sfhacks2024-apply"
+              target="_blank"
+              class="register--button"
+            >
+              Register
+            </a>
+          </li>
+        </ul>
       </div>
-    </div>
-  </nav>
 
-  <style>
+      {/** mobile version */}
+
+      <div class="dropdown">
+        <button class="dropbtn register--button nav--button">
+          Dropdown
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="/faq/">FAQ</a>
+          {/** <a href="/schedule/">Schedule</a> */}
+          <a href="/sponsors/">Sponsors</a>
+        </div>
+      </div>
+    </nav>
+
+    <style>{`
     @tailwind base;
     @tailwind components;
     @tailwind utilities;
@@ -227,7 +233,6 @@ import RxHamburgerMenu from "react-icons/rx";
     .dropdown:hover .dropdown-content {
       display: block;
     }
-  </style>
-
-
-</html>
+  `}</style>
+  </html>
+</Fragment>;
