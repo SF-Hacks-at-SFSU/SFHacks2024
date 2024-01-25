@@ -61,7 +61,7 @@ const AboutUs = () => {
         main goal is to enhance the talents of future programmers.
       </p>
       <p className="text-center text-white text-5xl">Meet Our Team</p>
-      <div className="grid grid-cols-3 place-items-center gap-5 p-10">
+      <div className="grid grid-cols-2 md:grid-cols-3 place-items-center gap-5 p-10">
         {people.map((person, index) => (
           <Person
             name={person.name}
