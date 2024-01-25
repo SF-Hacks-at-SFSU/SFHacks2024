@@ -3,7 +3,7 @@ import Person from "./Person";
 
 const AboutUs = () => {
   const people = [
-    { name: "OD", position: "Co-President", img: "public/frogs/frog3.png" },
+    { name: "OD", position: "Co-President", img: "/frogs/frog3.png" },
 
     {
       name: "Arianna",
@@ -13,12 +13,12 @@ const AboutUs = () => {
     {
       name: "Omar",
       position: "Director of Tech",
-      img: "public/frogs/frog1.png",
+      img: "/frogs/frog1.png",
     },
     {
       name: "Akim",
       position: "Developer",
-      img: "public/frogs/frog2.png",
+      img: "/frogs/frog2.png",
     },
 
     {
