@@ -3,52 +3,101 @@ import Person from "./Person";
 
 const AboutUs = () => {
   const people = [
-    { name: "OD", position: "Co-President", img: "/frogs/frog3.png" },
-
+    { name: "Odera",
+      position: "Co-President",
+      img: "/frogs/frog1.png"
+    },
     {
       name: "Arianna",
       position: "Co-President",
-      img: "/frogs/frog4.png",
+      img: "/frogs/frog2.png",
+    },
+    {
+      name: "Marco",
+      position: "Vice President",
+      img: "/frogs/frog3.png",
+    },
+    { name: "Huy",
+      position: "Administrator",
+      img: "/frogs/frog3.png"
+    },
+    { name: "Mark",
+      position: "Treasurer",
+      img: "/frogs/frog3.png"
     },
     {
       name: "Omar",
-      position: "Director of Tech",
-      img: "/frogs/frog1.png",
+      position: "Tech Operations",
+      img: "/frogs/frog4.png",
     },
     {
       name: "Akim",
-      position: "Developer",
+      position: "Tech Operations",
       img: "/frogs/frog2.png",
     },
-
     {
       name: "Avinh",
-      position: "Developer",
+      position: "Tech Operations",
       img: "/frogs/frog3.png",
     },
     {
       name: "Lakshyaa",
-      position: "Developer",
+      position: "Tech Operations",
       img: "/frogs/frog3.png",
     },
     {
       name: "Angelo",
-      position: "Developer",
+      position: "Tech Operations",
       img: "/frogs/frog4.png",
     },
     {
-      name: "Gabbi",
-      position: "Designer",
+      name: "Gabby",
+      position: "Design",
       img: "/frogs/frog5.png",
     },
     {
       name: "Michelle",
-      position: "Designer",
+      position: "Design",
       img: "/frogs/frog4.png",
     },
     {
       name: "Japneet",
-      position: "Social Event Officer",
+      position: "Social Engagement",
+      img: "/frogs/frog3.png",
+    },
+    {
+      name: "Ria",
+      position: "Social Engagement",
+      img: "/frogs/frog3.png",
+    },
+    {
+      name: "John",
+      position: "Marketing",
+      img: "/frogs/frog3.png",
+    },
+    {
+      name: "Anh",
+      position: "Marketing",
+      img: "/frogs/frog3.png",
+    },
+    {
+      name: "Shriya",
+      position: "Outreach",
+      img: "/frogs/frog3.png",
+    },
+    {
+      name: "Ash",
+      position: "Outreach",
+      img: "/frogs/frog3.png",
+    },
+    {
+      name: "Keith",
+      position: "Outreach",
+      img: "/frogs/frog3.png",
+    },
+    {
+      name: "Sukrit",
+      position: "Logistics",
       img: "/frogs/frog3.png",
     },
   ];
@@ -57,8 +106,8 @@ const AboutUs = () => {
       <p className="text-center text-7xl text-white">About Us</p>
 
       <p className="text-center text-2xl text-white p-6 ">
-        The sfhacks team consists of highly driven creative individuals who's
-        main goal is to enhance the talents of future programmers.
+      SF Hacks is more than just an event, we are a team of passionate individuals dedicated to hosting this hackathon. 
+      Our diverse team spans across logistics, design, tech operations, social engagement, marketing, and outreach. 
       </p>
       <p className="text-center text-white text-5xl">Meet Our Team</p>
       <div className="grid grid-cols-2 md:grid-cols-3 place-items-center gap-5 p-10">
