@@ -5,17 +5,17 @@ const AboutUs = () => {
   const people = [
     { name: "Odera",
       position: "Co-President",
-      img: "/frogs/frog1.png"
+      img: "/team/od.jpg"
     },
     {
       name: "Arianna",
       position: "Co-President",
-      img: "/frogs/frog2.png",
+      img: "/team/ari.jpg",
     },
     {
       name: "Marco",
       position: "Vice President",
-      img: "/frogs/frog3.png",
+      img: "/team/marco.jpg",
     },
     { name: "Huy",
       position: "Administrator",
@@ -28,7 +28,7 @@ const AboutUs = () => {
     {
       name: "Omar",
       position: "Tech Operations",
-      img: "/frogs/frog4.png",
+      img: "/team/omar.jpg",
     },
     {
       name: "Akim",
@@ -48,17 +48,17 @@ const AboutUs = () => {
     {
       name: "Angelo",
       position: "Tech Operations",
-      img: "/frogs/frog4.png",
+      img: "/team/angelo.jpg",
     },
     {
       name: "Gabby",
       position: "Design",
-      img: "/frogs/frog5.png",
+      img: "/team/gabby.jpg",
     },
     {
       name: "Michelle",
       position: "Design",
-      img: "/frogs/frog4.png",
+      img: "/team/michelle.jpg",
     },
     {
       name: "Japneet",
@@ -68,17 +68,22 @@ const AboutUs = () => {
     {
       name: "Ria",
       position: "Social Engagement",
-      img: "/frogs/frog3.png",
+      img: "/team/ria.jpg",
     },
     {
       name: "John",
       position: "Marketing",
-      img: "/frogs/frog3.png",
+      img: "/team/john.png",
     },
     {
       name: "Anh",
       position: "Marketing",
-      img: "/frogs/frog3.png",
+      img: "/team/anh.jpg",
+    },
+    {
+      name: "Laeli",
+      position: "Marketing",
+      img: "/team/laeli.jpg",
     },
     {
       name: "Shriya",
@@ -98,7 +103,7 @@ const AboutUs = () => {
     {
       name: "Sukrit",
       position: "Logistics",
-      img: "/frogs/frog3.png",
+      img: "/team/sukrit.jpg",
     },
   ];
   return (
