@@ -3,10 +3,7 @@ import Person from "./Person";
 
 const AboutUs = () => {
   const people = [
-    { name: "Odera",
-      position: "Co-President",
-      img: "/team/od.jpg"
-    },
+    { name: "Odera", position: "Co-President", img: "/team/od.jpg" },
     {
       name: "Arianna",
       position: "Co-President",
@@ -17,14 +14,8 @@ const AboutUs = () => {
       position: "Vice President",
       img: "/team/marco.jpg",
     },
-    { name: "Huy",
-      position: "Administrator",
-      img: "/frogs/frog3.png"
-    },
-    { name: "Mark",
-      position: "Treasurer",
-      img: "/frogs/frog3.png"
-    },
+    { name: "Huy", position: "Administrator", img: "/frogs/frog3.png" },
+    { name: "Mark", position: "Treasurer", img: "/frogs/frog3.png" },
     {
       name: "Omar",
       position: "Tech Operations",
@@ -73,7 +64,7 @@ const AboutUs = () => {
     {
       name: "John",
       position: "Marketing",
-      img: "/team/john.png",
+      img: "/team/john.PNG",
     },
     {
       name: "Anh",
@@ -111,8 +102,10 @@ const AboutUs = () => {
       <p className="text-center text-7xl text-white">About Us</p>
 
       <p className="text-center text-2xl text-white p-6 ">
-      SF Hacks is more than just an event, we are a team of passionate individuals dedicated to hosting this hackathon. 
-      Our diverse team spans across logistics, design, tech operations, social engagement, marketing, and outreach. 
+        SF Hacks is more than just an event, we are a team of passionate
+        individuals dedicated to hosting this hackathon. Our diverse team spans
+        across logistics, design, tech operations, social engagement, marketing,
+        and outreach.
       </p>
       <p className="text-center text-white text-5xl">Meet Our Team</p>
       <div className="grid grid-cols-2 md:grid-cols-3 place-items-center gap-5 p-10">
@@ -121,7 +114,7 @@ const AboutUs = () => {
             name={person.name}
             position={person.position}
             img={person.img}
-            index={index}
+            key={index}
           />
         ))}
       </div>
