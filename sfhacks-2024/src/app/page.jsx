@@ -2,20 +2,16 @@ import Countdown from '../components/Countdown';
 
 export default function Home() {
   return (
-    <>
-      
-    </>
-  );
-}
-<section className="home">
-      <div className="hero">
-        <img className="hero--image" src="/sfhacks/logopupleBluewithtext.png" />
-        <div className="hero--text">
+    <section>
+      <div className="h-[calc(100vh)] flex flex-row gap-[10%] justify-center object-cover bg-[url('/brand-assets/background-bridge.png')] bg-cover p-[15%]">
+        <img className="h-[70vh]" src="/brand-assets/purple-logo.png" />
+        <div className="w-[600px] gap-2.5 flex flex-col items-center text-[rgba(245,245,245,0.65)] text-base not-italic font-[550] leading-[normal] text-center">
           <p>Cohosted by Association of Computer Machinery (ACM) at SFSU</p>
 
-          <h1 className="hero--text--title">SF HACKS 2024</h1>
+          <h1 className="text-[#ebebeb] text-center text-[4rem] not-italic leading-[normal] uppercase font-[1000]">SF HACKS 2024</h1>
 
-          <CountDown />
+          <Countdown />
+          
           <p>
             April 5th - 7th 2024
             <a
@@ -56,3 +52,5 @@ export default function Home() {
         </div>
       </div>
     </section>
+  );
+}

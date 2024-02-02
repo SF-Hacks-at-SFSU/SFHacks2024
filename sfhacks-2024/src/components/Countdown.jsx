@@ -55,15 +55,15 @@ export default function CountDown() {
             </div>
             <div className="flex flex-col gap-[auto] items-center text-[#FFF5D9] text-center text-xl not-italic font-[575] leading-[normal]">
                 <h1>Hours</h1>
-                <p>{timer.hours > 9 ? timer.hours : '0' + timer.hours}</p>
+                <p className="text-[40px]">{timer.hours > 9 ? timer.hours : '0' + timer.hours}</p>
             </div>
             <div className="flex flex-col gap-[auto] items-center text-[#FFF5D9] text-center text-xl not-italic font-[575] leading-[normal]">
                 <h1>Minutes</h1>
-                <p>{timer.minutes > 9 ? timer.minutes : '0' + timer.minutes}</p>
+                <p className="text-[40px]">{timer.minutes > 9 ? timer.minutes : '0' + timer.minutes}</p>
             </div>
             <div className="flex flex-col gap-[auto] items-center text-[#FFF5D9] text-center text-xl not-italic font-[575] leading-[normal]">
                 <h1>Seconds</h1>    
-                <p>{timer.seconds > 9 ? timer.seconds : '0' + timer.seconds}</p>
+                <p className="text-[40px]">{timer.seconds > 9 ? timer.seconds : '0' + timer.seconds}</p>
             </div>
 		</div>
 	)
