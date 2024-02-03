@@ -62,8 +62,12 @@ const data = [
     answer: 'The event is located at Annex I, 1 N State Dr, San Francisco, CA 94132'
   },
   {
-    question: ' What’s the cost for attendance?',
+    question: 'What’s the cost for attendance?',
     answer: 'It’s a free event hosted by the SF Hacks Team at San Francisco State University.'
+  },
+  {
+    question: 'Is there travel reimbursements?',
+    answer: 'Unfortunately, we will not be able to reimburse travel costs.'
   },
   {
     question: 'Do I work by myself or with teams?',
@@ -78,12 +82,16 @@ const data = [
     answer: 'Yes, there is a theme planned for the event. We\'ll unveil it as we approach the event date.'
   },
   {
-    question: 'What other events will be held in the convention?',
-    answer: 'There will be a host of events including workshops from sponsors and ACM student leaders, panels, showcases, and fun mini-games!'
+    question: 'How can I get possible project ideas?',
+    answer: 'Check Devpost! Devpost is a website where hackathon results are displayed. Check the pages of previous hackathons for ideas!'
   },
   {
-    question: 'Is Omar Gay?',
-    answer: 'Yeah he is full homo'
+    question: 'How do I prepare in general?',
+    answer: 'Think of what you want to build, what tools you want to use, and reach out to potential teammates to brainstorm together.'
+  },
+  {
+    question: 'What other events will be held in the convention?',
+    answer: 'There will be a host of events including workshops from sponsors and ACM student leaders, panels, showcases, and fun mini-games!'
   },
   {
     question: 'Can I volunteer to help with the event?',
