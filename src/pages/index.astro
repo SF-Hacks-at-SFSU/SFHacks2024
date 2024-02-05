@@ -4,7 +4,7 @@ import Layout from "../layouts/Layout.astro";
 import CountDown from "../components/countdown/Countdown";
 import FAQ from "../components/FAQ/accordion";
 import Sponsors from "../components/sponsors/Sponsors";
-import AboutUs from "../components/aboutUs/AboutUs";
+import AboutUs from "../components/aboutUs/AboutUsStatic";
 ---
 
 <Layout title="SF Hacks 2024">
@@ -67,7 +67,7 @@ import AboutUs from "../components/aboutUs/AboutUs";
       <Sponsors client:load/>
     </section>
     <section class="about-us">
-      <AboutUs client:load/>
+      <AboutUs/>
     </section>
   </main>
 </Layout>
