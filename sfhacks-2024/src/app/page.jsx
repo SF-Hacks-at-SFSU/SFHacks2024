@@ -1,8 +1,14 @@
+"use client"
+
 import Countdown from '../components/Countdown';
+import FAQ from "../components/FAQ";
+import Sponsors from "../components/sponsors/Sponsors";
+// import AboutUs from "../components/aboutUs/AboutUs";
 
 export default function Home() {
   return (
-    <section className="h-[calc(100vh)] flex flex-row gap-[10%] justify-center object-cover bg-[url('/brand-assets/background-bridge.png')] bg-cover p-[15%]">
+    <main className='bg-[#254d70]'>
+    <section className="h-[calc(100vh)] bg-sfDarkBlue flex flex-row gap-[10%] justify-center object-cover bg-[url('/brand-assets/background-bridge.png')] bg-cover p-[5%]">
       <img className="h-[70vh]" src="/brand-assets/purple-logo.png" />
       <div className="w-[600px] gap-2.5 flex flex-col items-center text-[rgba(245,245,245,0.65)] text-base not-italic font-[550] leading-[normal] text-center">
         <p>Cohosted by Association of Computer Machinery (ACM) at SFSU</p>
@@ -50,5 +56,15 @@ export default function Home() {
         </div>
       </div>
     </section>
+    <section className="bg-[#254d70]">
+      <FAQ className="bg-green" />
+    </section>
+    <section className="bg-sfDarkBlue">
+      <Sponsors className="bg-green" />
+    </section>
+    <section className="bg-sfDarkBlue">
+      {/* <AboutUs className="bg-green"/> */}
+    </section>
+    </main>
   );
 }
