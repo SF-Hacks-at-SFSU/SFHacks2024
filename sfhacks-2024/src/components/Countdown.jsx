@@ -1,8 +1,9 @@
-"use client";
+"use client"
 
 import { useState, useRef, useEffect } from 'react';
 
 export default function CountDown() {
+
 	const Ref = useRef(null);
 
     var countDownDate = new Date("Apr 5, 2024 00:00:00");
@@ -46,6 +47,15 @@ export default function CountDown() {
 	useEffect(() => {
 		clearTimer(countDownDate);
 	}, []);
+
+	// Returns null on first render, so the client and server match
+	const [hydrated, setHydrated] = useState(false);
+    useEffect(() => {
+        setHydrated(true);
+    }, []);
+    if (!hydrated) {
+        return null;
+    }
 
 	return (
 		<div className="flex flex-row w-auto justify-between items-center gap-[5vw] m-5">
