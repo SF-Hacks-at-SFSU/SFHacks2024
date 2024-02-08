@@ -16,7 +16,7 @@ export default function Footer() {
   ];
 
   const sponsorsMap = sponsors.map((x) => (
-    <a target="_blank" id={x.id} href={x.link}>
+    <a target="_blank" key={x.id} href={x.link}>
       <img className="sponsor--image" src={x.path} />
     </a>
   ));
