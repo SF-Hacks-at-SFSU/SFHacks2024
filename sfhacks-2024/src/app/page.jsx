@@ -48,16 +48,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* <section className="bg-[#254d70]">
+      <section className="bg-[#254d70]">
         <FAQ />
       </section>
       <section className="bg-sfDarkBlue">
         <Sponsors />
-      </section> */}
-      {/* <section className="bg-sfDarkBlue">
-      </section> */}
-
-      <AboutUs />
+      </section>
+      <section className="bg-sfDarkBlue">
+        <AboutUs />
+      </section>
     </main>
   );
 }

@@ -4,7 +4,7 @@ import Image from "next/image"
 const Navbar = () => {
 
     return (
-        <nav className="flex flex-row items-center justify-between h-24 bg-white">
+        <nav className="flex flex-row items-center justify-between h-24 bg-sfDarkBlue">
 
             {/* Left side of header */}
             <div className="flex flex-row items-center ml-10">
@@ -33,16 +33,16 @@ const Navbar = () => {
             </div>
             
             {/* Right side of header */}
-            <div className="flex flex-row mr-10 gap-[5vw]">
+            <div className="flex flex-row text-[#FFF5D9] mr-10 gap-[5vw]">
 
                 {/* Buttons */}
-                <Link className="transition duration-200 ease-in-out delay-150 border-b-4 hover:border-black border-transparent" href="/faq/">FAQ</Link>
+                <Link className="transition duration-200 ease-in-out delay-150 border-b-4 hover:border-[#FFF5D9] border-transparent" href="/faq/">FAQ</Link>
 
-                <Link className="transition duration-200 ease-in-out delay-150 border-b-4 hover:border-black border-transparent" href="/sponsors/">Sponsors</Link>
+                <Link className="transition duration-200 ease-in-out delay-150 border-b-4 hover:border-[#FFF5D9] border-transparent" href="/sponsors/">Sponsors</Link>
                 <a
                     href="https://bit.ly/sfhacks2024-apply"
                     target="_blank"
-                    className="transition duration-200 ease-in-out delay-150 border-b-4 hover:border-black border-transparent">Register
+                    className="transition duration-200 ease-in-out delay-150 border-b-4 hover:border-[#FFF5D9] border-transparent">Register
                 </a>
             </div>
         </nav>
