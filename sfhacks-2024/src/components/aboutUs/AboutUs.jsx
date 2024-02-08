@@ -23,12 +23,12 @@ const AboutUs = () => {
     { 
       name: "Huy", 
       position: "Administrator", 
-      img: "/frogs/frog2.png" 
+      img: "/team/huy.jpg" 
     },
     { 
       name: "Mark", 
       position: "Treasurer", 
-      img: "/frogs/frog2.png" 
+      img: "/team/mark.jpg" 
     },
     {
       name: "Omar",
@@ -38,78 +38,78 @@ const AboutUs = () => {
     {
       name: "Akim",
       position: "Tech Operations",
-      img: "/frogs/frog1.jpg",
+      img: "/frogs/frog1.png",
     },
-    // {
-    //   name: "Avinh",
-    //   position: "Tech Operations",
-    //   img: "/frogs/frog3.jpg",
-    // },
-    // {
-    //   name: "Lakshyaa",
-    //   position: "Tech Operations",
-    //   img: "/frogs/frog3.jpg",
-    // },
-    // {
-    //   name: "Angelo",
-    //   position: "Tech Operations",
-    //   img: "/frogs/angelo.jpg",
-    // },
-    // {
-    //   name: "Gabby",
-    //   position: "Design",
-    //   img: "/team/gabby.jpg",
-    // },
-    // {
-    //   name: "Michelle",
-    //   position: "Design",
-    //   img: "/team/michelle.jpg",
-    // },
-    // {
-    //   name: "Japneet",
-    //   position: "Social Engagement",
-    //   img: "/frogs/frog3.jpg",
-    // },
-    // {
-    //   name: "Ria",
-    //   position: "Social Engagement",
-    //   img: "/team/ria.jpg",
-    // },
-    // {
-    //   name: "John",
-    //   position: "Marketing",
-    //   img: "/team/john.jpg",
-    // },
-    // {
-    //   name: "Anh",
-    //   position: "Marketing",
-    //   img: "/team/anh.jpg",
-    // },
-    // {
-    //   name: "Laeli",
-    //   position: "Marketing",
-    //   img: "/team/laeli.jpg",
-    // },
-    // {
-    //   name: "Shriya",
-    //   position: "Outreach",
-    //   img: "/frogs/frog3.jpg",
-    // },
-    // {
-    //   name: "Ash",
-    //   position: "Outreach",
-    //   img: "/frogs/frog3.jpg",
-    // },
-    // {
-    //   name: "Keith",
-    //   position: "Outreach",
-    //   img: "/frogs/frog3.jpg",
-    // },
-    // {
-    //   name: "Sukrit",
-    //   position: "Logistics",
-    //   img: "/team/sukrit.jpg",
-    // },
+    {
+      name: "Avinh",
+      position: "Tech Operations",
+      img: "/frogs/frog3.png",
+    },
+    {
+      name: "Lakshyaa",
+      position: "Tech Operations",
+      img: "/frogs/frog3.png",
+    },
+    {
+      name: "Angelo",
+      position: "Tech Operations",
+      img: "/team/angelo.jpg",
+    },
+    {
+      name: "Gabby",
+      position: "Design",
+      img: "/team/gabby.jpg",
+    },
+    {
+      name: "Michelle",
+      position: "Design",
+      img: "/team/michelle.jpg",
+    },
+    {
+      name: "Japneet",
+      position: "Social Engagement",
+      img: "/team/japneet.jpg",
+    },
+    {
+      name: "Ria",
+      position: "Social Engagement",
+      img: "/team/ria.jpg",
+    },
+    {
+      name: "John",
+      position: "Marketing",
+      img: "/team/john.jpg",
+    },
+    {
+      name: "Anh",
+      position: "Marketing",
+      img: "/team/anh.jpg",
+    },
+    {
+      name: "Laeli",
+      position: "Marketing",
+      img: "/team/laeli.jpg",
+    },
+    {
+      name: "Shriya",
+      position: "Outreach",
+      img: "/team/shriya.jpg",
+    },
+    {
+      name: "Ashley",
+      position: "Outreach",
+      img: "/team/ashley.jpg",
+    },
+    {
+      name: "Keith",
+      position: "Outreach",
+      img: "/team/keith.jpg",
+    },
+    {
+      name: "Sukrit",
+      position: "Logistics",
+      img: "/team/sukrit.jpg",
+    },
   ];
   return (
     <>
