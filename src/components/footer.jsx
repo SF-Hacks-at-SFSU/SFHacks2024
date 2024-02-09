@@ -5,7 +5,7 @@ export default function Footer() {
     {
       id: 1,
       name: "Sticker Mule",
-      path: "/sponsors/sticker-mule-logo-light-bg-stacked.svg",
+      path: "/sponsor-logos/sticker-mule-logo-light-bg-stacked.svg",
       link: "https://mule.to/p5h3",
     },
     // {
