@@ -1,14 +1,14 @@
-"use server"
+"use server";
 
 import React from "react";
 import Person from "./Person";
 
 const AboutUs = () => {
   const people = [
-    { 
-      name: "Odera", 
-      position: "Co-President", 
-      img: "/team/od.jpg" 
+    {
+      name: "Odera",
+      position: "Co-President",
+      img: "/team/od.jpg",
     },
     {
       name: "Arianna",
@@ -20,15 +20,15 @@ const AboutUs = () => {
       position: "Vice President",
       img: "/team/marco.jpg",
     },
-    { 
-      name: "Huy", 
-      position: "Administrator", 
-      img: "/team/huy.jpg" 
+    {
+      name: "Huy",
+      position: "Administrator",
+      img: "/team/huy.jpg",
     },
-    { 
-      name: "Mark", 
-      position: "Treasurer", 
-      img: "/team/mark.jpg" 
+    {
+      name: "Mark",
+      position: "Treasurer",
+      img: "/team/mark.jpg",
     },
     {
       name: "Omar",
