@@ -6,8 +6,8 @@ import AboutUs from "../components/aboutUs/AboutUs";
 export default function Home() {
   return (
     <main className='bg-[#254d70]'>
-      <section className="h-[calc(100vh)] bg-sfDarkBlue flex flex-row gap-[10%] justify-center object-cover bg-[url('/brand-assets/background-bridge.png')] bg-cover p-[5%]">
-        <img className="h-[70vh]" src="/brand-assets/purple-logo.png" />
+      <section className="h-[calc(90vh)] items-center bg-sfDarkBlue flex flex-row gap-[10%] justify-center object-cover bg-[url('/brand-assets/background-bridge.png')] bg-cover p-[5%]">
+        <img className="h-[70vh] hidden lg:block" src="/brand-assets/purple-logo.png" />
         <div className="w-[600px] gap-2.5 flex flex-col items-center text-[rgba(245,245,245,0.65)] text-base not-italic font-[550] leading-[normal] text-center">
           
           <p>Cohosted by Association of Computer Machinery (ACM) at SFSU</p>
@@ -29,7 +29,7 @@ export default function Home() {
             hackathon. Join us next spring to kickoff SF Hacks 2024!
           </p>
 
-          <div className="inline-block flex-row flex-wrap justify-center gap-5 sm:mb-10">
+          <div className="flex flex-row flex-wrap justify-center gap-5 sm:mb-10">
             <a href="https://bit.ly/sfhacks2024-apply" target="_blank">
               <button
                 type="button"
