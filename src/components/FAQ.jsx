@@ -100,7 +100,7 @@ const data = [
     answer: <p>You can volunteer!  Simply sign up using the registration button at the top of the page or go <a className="underline font-bold" href="bit.ly/sfhacks2024-register">here</a> and select the volunteer option on the first page.</p>
   },
   {
-    question: 'Where can contact for any questions or support?',
+    question: 'Where can I contact you for any questions or support?',
     answer: <p className="">
       {" "}
       You may email us at{" "}
@@ -108,7 +108,7 @@ const data = [
         href="mailto:sfhacksteam@gmail.com"
         className=" pointer-events-auto text-sfPink hover:underline"
       >
-        sfshacksteam@gmail.com{" "}
+        sfhacksteam@gmail.com{" "}
       </a>
     </p>
   },
