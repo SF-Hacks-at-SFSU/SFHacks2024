@@ -43,12 +43,12 @@ const AboutUs = () => {
     {
       name: "Avinh",
       position: "Tech Operations",
-      img: "/frogs/frog3.png",
+      img: "/frogs/frog2.png",
     },
     {
       name: "Lakshyaa",
       position: "Tech Operations",
-      img: "/frogs/frog3.png",
+      img: "/frogs/frog1.png",
     },
     {
       name: "Angelo",
