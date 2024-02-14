@@ -4,7 +4,7 @@ import Image from "next/image"
 const Navbar = () => {
 
     return (
-        <nav className="flex flex-row items-center justify-between h-24 bg-sfDarkBlue">
+        <nav className="flex flex-row items-center justify-between h-[calc(10vh)] bg-sfDarkBlue">
 
             {/* Left side of header */}
             <div className="flex flex-row items-center ml-10">
