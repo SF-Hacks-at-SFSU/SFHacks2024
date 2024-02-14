@@ -1,14 +1,14 @@
-"use server"
+"use server";
 
 import React from "react";
 import Person from "./Person";
 
 const AboutUs = () => {
   const people = [
-    { 
-      name: "Odera", 
-      position: "Co-President", 
-      img: "/team/od.jpg" 
+    {
+      name: "Odera",
+      position: "Co-President",
+      img: "/team/od.jpg",
     },
     {
       name: "Arianna",
@@ -20,15 +20,15 @@ const AboutUs = () => {
       position: "Vice President",
       img: "/team/marco.jpg",
     },
-    { 
-      name: "Huy", 
-      position: "Administrator", 
-      img: "/team/huy.jpg" 
+    {
+      name: "Huy",
+      position: "Administrator",
+      img: "/team/huy.jpg",
     },
-    { 
-      name: "Mark", 
-      position: "Treasurer", 
-      img: "/team/mark.jpg" 
+    {
+      name: "Mark",
+      position: "Treasurer",
+      img: "/team/mark.jpg",
     },
     {
       name: "Omar",
@@ -38,7 +38,7 @@ const AboutUs = () => {
     {
       name: "Akim",
       position: "Tech Operations",
-      img: "/frogs/frog1.png",
+      img: "/team/akim.jpg",
     },
     {
       name: "Avinh",
@@ -122,7 +122,7 @@ const AboutUs = () => {
         and outreach.
       </p>
       <p className="text-center text-white text-5xl">Meet Our Team</p>
-      <div className="grid grid-cols-2 md:grid-cols-3 place-items-center gap-5 p-10">
+      <div className="grid grid-rows-2 grid-flow-col md:grid-rows-3 place-items-center gap-6 p-10 overflow-scroll">
         {people.map((person, index) => (
           <Person
             name={person.name}
