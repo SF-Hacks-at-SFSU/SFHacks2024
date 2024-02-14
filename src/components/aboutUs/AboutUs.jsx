@@ -122,7 +122,7 @@ const AboutUs = () => {
         and outreach.
       </p>
       <p className="text-center text-white text-5xl">Meet Our Team</p>
-      <div className="grid grid-rows-2 grid-flow-col md:grid-rows-3 place-items-center gap-6 p-10 overflow-scroll">
+      <div className="grid grid-rows-2 grid-flow-col md:grid-cols-3 md:grid-flow-row-dense place-items-center gap-6 p-10 overflow-scroll">
         {people.map((person, index) => (
           <Person
             name={person.name}
