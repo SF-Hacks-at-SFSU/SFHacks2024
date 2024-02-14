@@ -38,7 +38,7 @@ const AboutUs = () => {
     {
       name: "Akim",
       position: "Tech Operations",
-      img: "/frogs/frog1.png",
+      img: "/team/akim.jpg",
     },
     {
       name: "Avinh",
