@@ -52,6 +52,10 @@ const data = [
     answer: 'A hackathon is a 24-hour event where individuals get together for a short period of time to collaborate on a project. Participants work rapidly and often work in groups to achieve their tasks.'
   },
   {
+    question: 'I have no prior hacking experience, can I still participate?',
+    answer: 'Yes! While the word "hack" is in hackathon, hackathons are primarily focused on the coding used for building projects.'
+  },
+  {
     question: 'Who can attend and do I have to know coding?',
     answer: 'No prior knowledge of computer science is needed! We encourage all levels of coders to attend. In our events, we dedicate officers/mentors/tutors to help all hackers find their beginnings in CS.'
   },
