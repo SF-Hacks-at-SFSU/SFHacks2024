@@ -21,7 +21,7 @@ const Navbar = () => {
 
                 {/* MLH Banner */}
                 <a
-                    className="xs:w-12 md:block md:w-14 lg:w-20 absolute left-40 top-0 z-10000"
+                    className="xs:w-12 md:block md:w-14 lg:w-20 absolute left-32 top-0 z-10000"
                     href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=red"
                     target="_blank"
                 ><img
