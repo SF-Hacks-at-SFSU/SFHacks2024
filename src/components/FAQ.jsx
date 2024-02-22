@@ -96,12 +96,16 @@ const data = [
     answer: 'Think of what you want to build, what tools you want to use, and reach out to potential teammates to brainstorm together.'
   },
   {
+    question: 'Is there a code of conduct?',
+    answer: <p> Yes! Check it out <a className="underline font-bold" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">here</a>.</p>
+  },
+  {
     question: 'What other events will be held in the convention?',
     answer: 'There will be a host of events including workshops from sponsors and ACM student leaders, panels, showcases, and fun mini-games!'
   },
   {
     question: 'Can I volunteer to help with the event?',
-    answer: <p>You can volunteer!  Simply sign up using the registration button at the top of the page or go <a className="underline font-bold" href="https://bit.ly/sfhacks2024-apply">here</a> and select the volunteer option on the first page.</p>
+    answer: <p>You can volunteer!  Simply sign up using the registration button at the top of the page or go <a className="underline font-bold" href="bit.ly/sfhacks2024-register">here</a> and select the volunteer option on the first page.</p>
   },
   /* update the link!  */
   {
