@@ -97,7 +97,7 @@ const data = [
   },
   {
     question: 'Is there a code of conduct?',
-    answer: <p> Yes! Check it out <a className="underline font-bold" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">here</a>.</p>
+    answer: <p> Yes! Check it out <a className="underline font-bold" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">here</a>.</p>
   },
   {
     question: 'What other events will be held in the convention?',
