@@ -66,13 +66,18 @@ const AboutUs = () => {
       img: "/team/michelle.jpg",
     },
     {
+      name: "Arizza",
+      position: "Design",
+      img: "/team/frog2.png",
+    },
+    {
       name: "Japneet",
       position: "Social Engagement",
       img: "/team/japneet.jpg",
     },
     {
       name: "Ria",
-      position: "Social Engagement",
+      position: "Marketing Director",
       img: "/team/ria.jpg",
     },
     {
