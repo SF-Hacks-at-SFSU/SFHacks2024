@@ -1,14 +1,14 @@
-"use server"
+"use server";
 
 import React from "react";
 import Person from "./Person";
 
 const AboutUs = () => {
   const people = [
-    { 
-      name: "Odera", 
-      position: "Co-President", 
-      img: "/team/od.jpg" 
+    {
+      name: "Odera",
+      position: "Co-President",
+      img: "/team/od.jpg",
     },
     {
       name: "Arianna",
@@ -20,15 +20,15 @@ const AboutUs = () => {
       position: "Vice President",
       img: "/team/marco.jpg",
     },
-    { 
-      name: "Huy", 
-      position: "Administrator", 
-      img: "/team/huy.jpg" 
+    {
+      name: "Huy",
+      position: "Administrator",
+      img: "/team/huy.jpg",
     },
-    { 
-      name: "Mark", 
-      position: "Treasurer", 
-      img: "/team/mark.jpg" 
+    {
+      name: "Mark",
+      position: "Treasurer",
+      img: "/team/mark.jpg",
     },
     {
       name: "Omar",
@@ -38,17 +38,17 @@ const AboutUs = () => {
     {
       name: "Akim",
       position: "Tech Operations",
-      img: "/frogs/frog1.png",
+      img: "/team/akim.jpg",
     },
     {
       name: "Avinh",
       position: "Tech Operations",
-      img: "/frogs/frog3.png",
+      img: "/frogs/frog2.png",
     },
     {
       name: "Lakshyaa",
       position: "Tech Operations",
-      img: "/frogs/frog3.png",
+      img: "/frogs/frog1.png",
     },
     {
       name: "Angelo",
@@ -66,13 +66,18 @@ const AboutUs = () => {
       img: "/team/michelle.jpg",
     },
     {
+      name: "Arizza",
+      position: "Design",
+      img: "/team/frog2.png",
+    },
+    {
       name: "Japneet",
       position: "Social Engagement",
       img: "/team/japneet.jpg",
     },
     {
       name: "Ria",
-      position: "Social Engagement",
+      position: "Marketing Director",
       img: "/team/ria.jpg",
     },
     {
@@ -122,7 +127,7 @@ const AboutUs = () => {
         and outreach.
       </p>
       <p className="text-center text-white text-5xl">Meet Our Team</p>
-      <div className="grid grid-cols-2 md:grid-cols-3 place-items-center gap-5 p-10">
+      <div className="grid grid-rows-2 grid-flow-col md:grid-cols-3 md:grid-flow-row-dense place-items-center gap-6 p-10 overflow-x-scroll no-scrollbar">
         {people.map((person, index) => (
           <Person
             name={person.name}

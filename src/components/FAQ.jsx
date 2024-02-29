@@ -52,6 +52,10 @@ const data = [
     answer: 'A hackathon is a 24-hour event where individuals get together for a short period of time to collaborate on a project. Participants work rapidly and often work in groups to achieve their tasks.'
   },
   {
+    question: 'I have no prior hacking experience, can I still participate?',
+    answer: 'Yes! While the word "hack" is in hackathon, hackathons are primarily focused on the coding used for building projects.'
+  },
+  {
     question: 'Who can attend and do I have to know coding?',
     answer: 'No prior knowledge of computer science is needed! We encourage all levels of coders to attend. In our events, we dedicate officers/mentors/tutors to help all hackers find their beginnings in CS.'
   },
@@ -92,15 +96,20 @@ const data = [
     answer: 'Think of what you want to build, what tools you want to use, and reach out to potential teammates to brainstorm together.'
   },
   {
+    question: 'Is there a code of conduct?',
+    answer: <p> Yes! Check it out <a className="underline font-bold" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">here</a>.</p>
+  },
+  {
     question: 'What other events will be held in the convention?',
     answer: 'There will be a host of events including workshops from sponsors and ACM student leaders, panels, showcases, and fun mini-games!'
   },
   {
     question: 'Can I volunteer to help with the event?',
-    answer: <p>You can volunteer!  Simply sign up using the registration button at the top of the page or go <a className="underline font-bold" href="bit.ly/sfhacks2024-register">here</a> and select the volunteer option on the first page.</p>
+    answer: <p>You can volunteer!  Simply sign up using the registration button at the top of the page or go <a className="underline font-bold" href="bit.ly/sfhacks2024-register" target="_blank">here</a> and select the volunteer option on the first page.</p>
   },
+  /* update the link!  */
   {
-    question: 'Where can contact for any questions or support?',
+    question: 'Where can I contact you for any questions or support?',
     answer: <p className="">
       {" "}
       You may email us at{" "}
@@ -108,7 +117,7 @@ const data = [
         href="mailto:sfhacksteam@gmail.com"
         className=" pointer-events-auto text-sfPink hover:underline"
       >
-        sfshacksteam@gmail.com{" "}
+        sfhacksteam@gmail.com{" "}
       </a>
     </p>
   },
