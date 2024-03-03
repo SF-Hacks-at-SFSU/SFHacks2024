@@ -1,7 +1,7 @@
 .foot {
     display: flex;
     flex-direction: row;
-    height: 29.5dvh;
+    height: 15dvh;
     align-items: center;
     justify-content: center;
     background: #254d70;
@@ -11,9 +11,6 @@
     letter-spacing: 0.25rem;
 }
 
-.sponsor--image {
-    width: 30vh;
-}
 
 @media (max-width: 768px){
     .foot{
@@ -22,9 +19,5 @@
     }
     .footer-label{
         margin: 3rem 0rem -1.5rem 0rem;
-    }
-    .sponsor--image{ 
-        top: 0;
-        width: 22dvh;
     }
 }

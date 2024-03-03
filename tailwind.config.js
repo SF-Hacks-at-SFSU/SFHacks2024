@@ -18,7 +18,7 @@ module.exports = {
       },
       colors: {
 				sfGreyBlue : '#838FBA',
-				sfDarkBlue : '#132A3E',
+				sfDarkBlue : '#1a3a55', /*Old BG color: 132A3E*/
 				sfDarkerBlue: '#132330',
 				sfPink: '#FFD6EC',
 				sfLightBlue: '#2b455c'
