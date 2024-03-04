@@ -75,7 +75,7 @@ const Sponsors = () => {
     {
       id: 1,
       name: "Marvell",
-      path: "/sponsor-logos/small-logos/Marvell_logo.png",
+      path: "/sponsor-logos/small-logos/Marvell_logo.svg",
       link: "https://www.marvell.com/",
     },
     {
@@ -155,14 +155,14 @@ const Sponsors = () => {
   const mediumSponsors = [
       {
         id: 1,
-        name: "ByteDance",
+        name: "COZE",
         path: "/sponsor-logos/medium-logos/ByteDance_logo.png",
-        link: "https://www.bytedance.com/en/",
+        link: "https://www.coze.com/",
       },
       {
         id: 2,
         name: "COSE",
-        path: "/sponsor-logos/medium-logos/COSE_logo.svg",
+        path: "/sponsor-logos/medium-logos/COSE_logo.png",
         link: "https://cose.sfsu.edu/",
       },
       
