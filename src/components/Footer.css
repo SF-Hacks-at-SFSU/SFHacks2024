@@ -14,8 +14,10 @@
 
 @media (max-width: 768px){
     .foot{
-        flex-direction: column;
-        height: 31dvh;
+        font-size: 1rem;
+        height: 20dvh;
+        align-items: center;
+        justify-content: center;
     }
     .footer-label{
         margin: 3rem 0rem -1.5rem 0rem;

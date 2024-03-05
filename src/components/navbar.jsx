@@ -39,11 +39,6 @@ const Navbar = () => {
                 <Link className="transition duration-200 ease-in-out delay-150 border-b-4 hover:border-[#FFF5D9] border-transparent" href="/faq/">FAQ</Link>
 
                 <Link className="transition duration-200 ease-in-out delay-150 border-b-4 hover:border-[#FFF5D9] border-transparent" href="/sponsors/">Sponsors</Link>
-                <a
-                    href="https://bit.ly/sfhacks2024-apply"
-                    target="_blank"
-                    className="transition duration-200 ease-in-out delay-150 border-b-4 hover:border-[#FFF5D9] border-transparent">Register
-                </a>
             </div>
         </nav>
     )

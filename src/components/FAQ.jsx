@@ -104,11 +104,6 @@ const data = [
     answer: 'There will be a host of events including workshops from sponsors and ACM student leaders, panels, showcases, and fun mini-games!'
   },
   {
-    question: 'Can I volunteer to help with the event?',
-    answer: <p>You can volunteer!  Simply sign up using the registration button at the top of the page or go <a className="underline font-bold" href="bit.ly/sfhacks2024-register" target="_blank">here</a> and select the volunteer option on the first page.</p>
-  },
-  /* update the link!  */
-  {
     question: 'Where can I contact you for any questions or support?',
     answer: <p className="">
       {" "}

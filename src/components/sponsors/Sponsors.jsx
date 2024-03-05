@@ -139,13 +139,13 @@ const Sponsors = () => {
 
   const smallSponsorsSet5 = [
     {
-      id: 6,
+      id: 1,
       name: "Notion",
       path: "/sponsor-logos/small-logos/Notion_logo.png",
       link: "https://www.notion.so/"
     },
     {
-      id: 7,
+      id: 2,
       name: "Art of Problem Solving",
       path: "/sponsor-logos/small-logos/AOPS_Logo.png",
       link: "https://artofproblemsolving.com/"
@@ -178,7 +178,7 @@ const Sponsors = () => {
     {
       id: 2,
       name: "OpenAi",
-      path: "/sponsor-logos/large-logos/OpenAI_Logo.png",
+      path: "/sponsor-logos/large-logos/OpenAI_Logo.svg",
       link: "https://openai.com/",
     },
     {

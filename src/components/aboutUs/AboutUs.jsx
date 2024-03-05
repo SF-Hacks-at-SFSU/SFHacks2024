@@ -43,12 +43,12 @@ const AboutUs = () => {
     {
       name: "Avinh",
       position: "Tech Operations",
-      img: "/frogs/frog2.png",
+      img: "/team/avinh.png",
     },
     {
       name: "Lakshyaa",
       position: "Tech Operations",
-      img: "/frogs/frog1.png",
+      img: "/team/lakshyaa.png",
     },
     {
       name: "Angelo",
@@ -109,6 +109,11 @@ const AboutUs = () => {
       name: "Sukrit",
       position: "Logistics",
       img: "/team/sukrit.jpg",
+    },
+    {
+      name: "Alex",
+      position: "Logistics",
+      img: "/team/alex.jpg"
     },
   ];
   return (
