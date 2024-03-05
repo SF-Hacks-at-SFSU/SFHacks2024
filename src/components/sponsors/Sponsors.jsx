@@ -20,7 +20,7 @@ const Sponsors = () => {
     {
       id: 3,
       name: "Vectara",
-      path: "/sponsor-logos/small-logos/Vectara_logo.svg",
+      path: "/sponsor-logos/small-logos/Vectara_Logo.svg",
       link: "https://vectara.com/",
     },
     {
@@ -32,7 +32,7 @@ const Sponsors = () => {
     {
       id: 5,
       name: "MLT",
-      path: "/sponsor-logos/small-logos/Colored_MLT_logo.png",
+      path: "/sponsor-logos/small-logos/Colored_MLT_Logo.png",
       link: "https://mlt.org/",
     },
   ];
@@ -75,7 +75,7 @@ const Sponsors = () => {
     {
       id: 1,
       name: "Marvell",
-      path: "/sponsor-logos/small-logos/Marvell_logo.svg",
+      path: "/sponsor-logos/small-logos/Marvell_Logo.svg",
       link: "https://www.marvell.com/",
     },
     {
@@ -147,7 +147,7 @@ const Sponsors = () => {
     {
       id: 7,
       name: "Art of Problem Solving",
-      path: "/sponsor-logos/small-logos/AOPS_logo.png",
+      path: "/sponsor-logos/small-logos/AOPS_Logo.png",
       link: "https://artofproblemsolving.com/"
     },
   ]
