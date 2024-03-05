@@ -97,7 +97,7 @@ const AboutUs = () => {
     },
     {
       name: "Ashley",
-      position: "Outreach",
+      position: "Logistics",
       img: "/team/ashley.jpg",
     },
     {

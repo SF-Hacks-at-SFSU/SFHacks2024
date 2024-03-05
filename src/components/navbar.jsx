@@ -33,7 +33,7 @@ const Navbar = () => {
             </div>
             
             {/* Right side of header */}
-            <div className="flex flex-row text-[#FFF5D9] mr-8 gap-[2vw] md:text-l xs:text-xs">
+            <div className="flex flex-row text-[#FFF5D9] mr-8 gap-[2vw] text-xl">
 
                 {/* Buttons */}
                 <Link className="transition duration-200 ease-in-out delay-150 border-b-4 hover:border-[#FFF5D9] border-transparent" href="/faq/">FAQ</Link>
