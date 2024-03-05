@@ -8,70 +8,57 @@
 }
 
 .large--sponsor--image{
-    width: 32vh;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    width: 34vh;
+    margin: 1rem;
 }
 
 
 .medium--sponsor--image{
     width: 24vh;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin: 1rem;
 }
 
 .small--sponsor--image {
-    width: 26vh;
-    margin-left: 3rem;
-    margin-right: 1rem;
+    width: 20vh;
+    margin: 1rem;
 }
 
+/*Sizes for half screens*/
 @media only screen and (max-width: 960px) {
     .x--large--sponsor--image{
         width: 45vh;
     }
     
     .large--sponsor--image{
-        width: 14vh;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
+        width: 15.5vh;
     }
     
     
     .medium--sponsor--image{
         width: 13vh;
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
     
     .small--sponsor--image {
-        width: 12vh;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        width: 11vh;
     }
 }
 
+/*Sizes for mobile and tablet devices*/
 @media only screen and (max-width: 500px) {
     .x--large--sponsor--image{
         width: 35vh;
     }
     
     .large--sponsor--image{
-        width: 6.7vh;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
+        width: 8.5vh;
     }
     
     
     .medium--sponsor--image{
-        width: 7vh;
-        margin-left: 1.2rem;
-        margin-right: 1.2rem;
+        width: 7.5vh;
     }
     
     .small--sponsor--image {
-        width: 6.2vh;
-        margin-left: 1.3rem;
-        margin-right: 1.3rem;
+        width: 5.8vh;
     }
 }
