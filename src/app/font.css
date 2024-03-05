@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'CooperHewitt';
+    src: local('CooperHewitt'),
+         url('../fonts/CooperHewitt-Thin.otl') format('otl');
+}
