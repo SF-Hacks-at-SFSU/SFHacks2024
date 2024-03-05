@@ -30,13 +30,6 @@ export default function Home() {
           </p>
 
           <div className="flex flex-row flex-wrap justify-center gap-5 sm:mb-10">
-            <a href="https://bit.ly/sfhacks2024-apply" target="_blank">
-              <button
-                type="button"
-                className="text-sfLightBlue mt-5 p-4 text-lg font-semibold rounded-full bg-sfPink"
-              >Register Now</button>
-            </a>
-
             <a href="https://discord.gg/P5PsDR6G7W" target="_blank">
               <button
                 type="button"
