@@ -1,9 +1,6 @@
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "SF Hacks 2024",
@@ -13,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`bg-sfDarkBlue ${inter.className}`}>
+      <body className={`bg-sfDarkBlue`}>
         
         <Navbar />
       
