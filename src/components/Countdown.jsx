@@ -1,6 +1,9 @@
 "use client"
 
 import { useState, useRef, useEffect } from 'react';
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export default function CountDown() {
 
@@ -58,7 +61,7 @@ export default function CountDown() {
     }
 
 	return (
-		<div className="flex flex-row w-auto justify-between items-center gap-[5vw] m-5">
+		<div className={`${inter.className} flex flex-row w-auto justify-between items-center gap-[5vw] m-5`}>
             <div className="flex flex-col gap-[auto] items-center text-[#FFF5D9] text-center text-xl not-italic font-[575] leading-[normal]">
                 <h1>Days</h1>
 			    <p className="text-[40px]">{timer.days > 9 ? timer.days : '0' + timer.days}</p>

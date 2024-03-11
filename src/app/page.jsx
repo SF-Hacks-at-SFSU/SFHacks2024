@@ -2,8 +2,12 @@ import Countdown from '../components/Countdown';
 import FAQ from "../components/FAQ";
 import Sponsors from "../components/sponsors/Sponsors";
 import AboutUs from "../components/aboutUs/AboutUs";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+
   return (
     <main className='bg-[#254d70]'>
       <section className="h-[calc(90vh)] items-center bg-sfDarkBlue flex flex-row gap-[10%] justify-center object-cover bg-[url('/brand-assets/background-bridge.png')] bg-cover p-[5%]">
@@ -11,7 +15,7 @@ export default function Home() {
         <div className="w-[600px] gap-2.5 flex flex-col items-center text-[rgba(245,245,245,0.65)] text-base not-italic font-[550] leading-[normal] text-center">
           
           <p>Cohosted by Association of Computer Machinery (ACM) at SFSU</p>
-          <h1 className="text-[#ebebeb] text-center text-[4rem] not-italic leading-[normal] uppercase font-[1000]">SF HACKS 2024</h1>
+          <h1 className={`${inter.className} text-[#ebebeb] text-center text-[4rem] not-italic leading-[normal] uppercase font-[1000]`}>SFHACKS 2024</h1>
           
           <Countdown />
           
