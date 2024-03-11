@@ -2,6 +2,7 @@ import Countdown from '../components/Countdown';
 import FAQ from "../components/FAQ";
 import Sponsors from "../components/sponsors/Sponsors";
 import AboutUs from "../components/aboutUs/AboutUs";
+import Tracks from "../components/Tracks";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -45,6 +46,10 @@ export default function Home() {
         </div>
       </section>
 
+
+      <section className="bg-[#0E1E2C]">
+        <Tracks />
+      </section>
       <section className="bg-[#254d70]">
         <FAQ />
       </section>
