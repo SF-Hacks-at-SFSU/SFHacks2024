@@ -150,6 +150,18 @@ const Sponsors = () => {
       path: "/sponsor-logos/small-logos/AOPS_Logo.png",
       link: "https://artofproblemsolving.com/"
     },
+    {
+      id: 3,
+      name: "Google Cloud",
+      path: "/sponsor-logos/gcloud.png",
+      link: "https://cloud.google.com/"
+    },
+    {
+      id: 4,
+      name: "Associated Students",
+      path: "/sponsor-logos/AS.png",
+      link: "https://asi.sfsu.edu/"
+    },
   ]
 
   const mediumSponsors = [
