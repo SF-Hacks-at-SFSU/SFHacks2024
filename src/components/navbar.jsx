@@ -40,7 +40,7 @@ const Navbar = () => {
 
                 <Link className="transition duration-200 ease-in-out delay-150 border-b-4 hover:border-[#FFF5D9] border-transparent" href="/sponsors/">Sponsors</Link>
 
-                <Link className="transition duration-200 ease-in-out delay-150 border-b-4 hover:border-[#FFF5D9] border-transparent" href="/schedule/">Schedule</Link>
+                
             </div>
         </nav>
     )
