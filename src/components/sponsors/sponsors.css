@@ -4,22 +4,23 @@
 }
 
 .x--large--sponsor--image{
-    width: 95vh;
+    width: 65vh;
+    margin: 1rem;
 }
 
 .large--sponsor--image{
-    width: 34vh;
+    width: 30vh;
     margin: 1rem;
 }
 
 
 .medium--sponsor--image{
-    width: 24vh;
+    width: 28vh;
     margin: 1rem;
 }
 
 .small--sponsor--image {
-    width: 20vh;
+    width: 22vh;
     margin: 1rem;
 }
 

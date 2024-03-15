@@ -21,7 +21,7 @@ const Navbar = () => {
 
                 {/* MLH Banner */}
                 <a
-                    className="xs:w-12 md:block md:w-14 lg:w-20 absolute left-32 top-0 z-50"
+                    className="xs:w-[3rem] md:block md:w-14 lg:w-20 absolute left-32 top-0 z-50"
                     href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2024-season&utm_content=red"
                     target="_blank"
                 ><img
@@ -33,12 +33,14 @@ const Navbar = () => {
             </div>
             
             {/* Right side of header */}
-            <div className="flex flex-row text-[#FFF5D9] mr-8 gap-[2vw] text-xl">
+            <div className="flex flex-row text-[#FFF5D9] mr-8 gap-[2vw] sm:text-[1rem] xs:text-[0.7rem]">
 
                 {/* Buttons */}
                 <Link className="transition duration-200 ease-in-out delay-150 border-b-4 hover:border-[#FFF5D9] border-transparent" href="/faq/">FAQ</Link>
 
                 <Link className="transition duration-200 ease-in-out delay-150 border-b-4 hover:border-[#FFF5D9] border-transparent" href="/sponsors/">Sponsors</Link>
+
+                
             </div>
         </nav>
     )

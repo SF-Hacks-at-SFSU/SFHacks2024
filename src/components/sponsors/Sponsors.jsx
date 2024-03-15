@@ -210,8 +210,14 @@ const Sponsors = () => {
   const  xLargeSponsors = [
     {
       id: 1,
-      name: "Paul Klein/Browser Base",
-      path: "/sponsor-logos/xlarge-logos/BrowerBase.svg",
+      name: "Paul Klein",
+      path: "/sponsor-logos/xlarge-logos/paul-klein.png",
+      link: "https://browserbase.com/",
+    },
+    {
+      id: 2,
+      name: "Browser Base",
+      path: "/sponsor-logos/xlarge-logos/browser-base.png",
       link: "https://browserbase.com/",
     },
   ];
