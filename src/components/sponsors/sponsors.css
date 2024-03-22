@@ -27,11 +27,11 @@
 /*Sizes for half screens*/
 @media only screen and (max-width: 960px) {
     .x--large--sponsor--image{
-        width: 45vh;
+        width: 35vh;
     }
     
     .large--sponsor--image{
-        width: 15.5vh;
+        width: 13vh;
     }
     
     
@@ -47,11 +47,11 @@
 /*Sizes for mobile and tablet devices*/
 @media only screen and (max-width: 500px) {
     .x--large--sponsor--image{
-        width: 35vh;
+        width: 20vh;
     }
     
     .large--sponsor--image{
-        width: 8.5vh;
+        width: 7vh;
     }
     
     

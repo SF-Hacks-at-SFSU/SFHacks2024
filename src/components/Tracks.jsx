@@ -12,12 +12,12 @@ export default function Tracks() {
     },
     {
       title: "Best Sustainability Hack",
-      description: "develop a hack that provides an innovative and practical solution that promotes sustainable development.",
+      description: "Develop a hack that provides an innovative and practical solution that promotes sustainable development.",
       image: "/tracks/sustainability.svg"
     },
     {
       title: "Best Design",
-      description: "develop a hack with innovative and visually appealing user interfaces (UI) and user experiences (UX).",
+      description: "Develop a hack with innovative and visually appealing user interfaces (UI) and user experiences (UX).",
       image: "/tracks/design.svg"
     },
     {

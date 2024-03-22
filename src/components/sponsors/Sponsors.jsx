@@ -193,6 +193,12 @@ const Sponsors = () => {
       path: "/sponsor-logos/large-logos/Cisco_logo.png",
       link: "https://www.cisco.com/",
     },
+    {
+      id: 5,
+      name: "Neurelo",
+      path: "/sponsor-logos/large-logos/Neurelo_logo.png",
+      link: "https://www.neurelo.com/",
+    },
   ];
 
   const  xLargeSponsors = [
