@@ -9,7 +9,7 @@
 }
 
 .large--sponsor--image{
-    width: 30vh;
+    width: 20.5vh;
     margin: 1rem;
 }
 
@@ -22,6 +22,34 @@
 .small--sponsor--image {
     width: 22vh;
     margin: 1rem;
+}
+
+@media only screen and (max-width: 1360px) {
+    .sponsors-container{
+        display: flex;
+        align-items: center;
+    }
+
+    .x--large--sponsor--image{
+        width: 45vh;
+        margin: 1rem;
+    }
+
+    .large--sponsor--image{
+        width: 16.5vh;
+        margin: 1rem;
+    }
+
+
+    .medium--sponsor--image{
+        width: 20vh;
+        margin: 1rem;
+    }
+
+    .small--sponsor--image {
+        width: 18vh;
+        margin: 1rem;
+    }
 }
 
 /*Sizes for half screens*/
