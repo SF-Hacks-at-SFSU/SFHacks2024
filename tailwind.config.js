@@ -21,7 +21,9 @@ module.exports = {
 				sfDarkBlue : '#132A3E',
 				sfDarkerBlue: '#132330',
 				sfPink: '#FFD6EC',
-				sfLightBlue: '#2b455c'
+				sfLightBlue: '#2b455c',
+        sfTan: "#FFF5D9",
+        sfBloo: "#254d70"
 			},
     },
   },
