@@ -30,7 +30,7 @@ const Schedule2 = () => {
         start: "7:30 PM",
         end: "8:00 PM",
         name: "Dinner",
-        description: "",
+        description: "Devour some amazing food  ",
       },
       {
         start: "11:00 PM",
@@ -83,12 +83,6 @@ const Schedule2 = () => {
     ],
     [
       // sponsors
-      {
-        start: "10:00",
-        end: "11:00",
-        name: "sponsors event",
-        description: "description",
-      },
     ],
     [
       // misc
@@ -110,58 +104,116 @@ const Schedule2 = () => {
     [
       //general
       {
-        start: "10:00",
-        end: "11:00",
-        name: "name day2 general 1",
-        description: "description",
+        start: "8:00 AM",
+        end: "8:30 AM",
+        name: "Doors Open",
+        description: "Those that left may return",
       },
       {
-        start: "10:00",
-        end: "11:00",
-        name: "name2",
-        description: "description",
+        start: "9:00 AM",
+        end: "9:30 AM",
+        name: "Breakfast",
+        description: "BREAK your FAST",
+      },
+      {
+        start: "1:00 PM",
+        end: "2:00 PM",
+        name: "Lunch",
+        description: "Obliderate your hunger with some Costo Pizza",
+      },
+      {
+        start: "2:00 PM",
+        end: "3:30 PM",
+        name: "Women in Tech Panel",
+        description:
+          "Celebrate the contributions of women who shape the future of our technology.",
+      },
+      {
+        start: "4:00 PM",
+        end: "4:30 PM",
+        name: "Workshop Interview Time",
+        description: "[Description still pending]",
+      },
+      {
+        start: "6:00 PM",
+        end: "7:00 PM",
+        name: "POC in tech panel",
+        description:
+          "Highlighting the voices and achievements of people of color in the tech industry.",
+      },
+      {
+        start: "8:00 PM",
+        end: "9:00 PM",
+        name: "Dinner",
+        description: "Feast on some of Ike's Sandwiches",
       },
     ],
     [
       //workshop1
       {
-        start: "10:00",
-        end: "11:00",
-        name: "workshop1 event day2",
-        description: "description",
+        start: "11:00 AM",
+        end: "11:30 AM",
+        name: "Cyber Security SIG Workshop",
+        description: "Learn the fundementals of ethical hacking",
       },
       {
-        start: "10:00",
-        end: "11:00",
-        name: "workshop1 event2 day2",
-        description: "description",
+        start: "5:00 PM",
+        end: "6:00 PM",
+        name: "Games for Love Workshop",
+        description:
+          "Learn how to save lives by making awesome games, hosted by Jon Wolheim",
+      },
+      {
+        start: "7:00 PM",
+        end: "10:30 PM",
+        name: "Game Dev SIG workshop",
+        description:
+          "Learn the basics of creating groundbreaking gaming experiences",
       },
     ],
     [
       // worksjop 2
-      {
-        start: "10:00",
-        end: "11:00",
-        name: "workshop2 event day2",
-        description: "description",
-      },
     ],
     [
       // sponsors
-      {
-        start: "10:00",
-        end: "11:00",
-        name: "sponsors event day2",
-        description: "description",
-      },
     ],
     [
       // misc
       {
-        start: "10:00",
-        end: "11:00",
-        name: "misc event",
-        description: "description",
+        start: "10:00 AM",
+        end: "10:30 AM",
+        name: "Merchandise Handout",
+        description: "Enjoy all of the splended goodies",
+      },
+      {
+        start: "3:00 PM",
+        end: "4:00 PM",
+        name: "K Pop event",
+        description: "Learn how to dance and sing like your favorite idol.",
+      },
+      {
+        start: "4:00 PM",
+        end: "5:00 PM",
+        name: "Mini-event: Painting/Watercolor",
+        description: "Hone in your artistic side and learn painting techniques",
+      },
+      {
+        start: "9:00 PM",
+        end: "9:30 PM",
+        name: "Karaoke",
+        description: "Show off your singing skills.",
+      },
+      {
+        start: "11:00 PM",
+        end: "11:30 PM",
+        name: "Mini-event: Paper airplanes",
+        description: "Learn how to make paper airplanes",
+      },
+      {
+        start: "2:00 AM",
+        end: "3:00 AM",
+        name: "Mini-event: Board Game night",
+        description: "Stay up late and play some games",
       },
     ],
   ];
@@ -169,59 +221,53 @@ const Schedule2 = () => {
     [
       //general
       {
-        start: "10:00",
-        end: "11:00",
-        name: "name day3 general 1",
-        description: "description",
+        start: "8:00 AM",
+        end: "8:30 AM",
+        name: "Doors Open",
+        description: "Those who left may return",
       },
       {
-        start: "10:00",
-        end: "11:00",
-        name: "name2 day 3",
-        description: "description",
+        start: "9:00 AM",
+        end: "9:30 AM",
+        name: "Breakfast",
+        description: "Enjoy some coffee and breakfast with Noah's Bagel",
+      },
+      {
+        start: "10:30 AM",
+        end: "11:00 AM",
+        name: "Project Submission deadline",
+        description: "Submit your project by 11:30 AM",
+      },
+      {
+        start: "11:30 AM",
+        end: "1:00 PM",
+        name: "Project Judging",
+        description: "Relax and take a breather while your project gets judged",
+      },
+      {
+        start: "11:30 AM",
+        end: "1:00 PM",
+        name: "Project Judging",
+        description: "Relax and take a breather while your project gets judged",
+      },
+      {
+        start: "2:00 PM",
+        end: "4:00 PM",
+        name: "Winners revealed/Interview",
+        description: "Celebrate those who won",
       },
     ],
     [
       //workshop1
-      {
-        start: "10:00",
-        end: "11:00",
-        name: "workshop1 event day3",
-        description: "description",
-      },
-      {
-        start: "10:00",
-        end: "11:00",
-        name: "workshop1 event2 day3",
-        description: "description",
-      },
     ],
     [
       // worksjop 2
-      {
-        start: "10:00",
-        end: "11:00",
-        name: "workshop2 event day3",
-        description: "description",
-      },
     ],
     [
       // sponsors
-      {
-        start: "10:00",
-        end: "11:00",
-        name: "sponsors event day3",
-        description: "description",
-      },
     ],
     [
       // misc
-      {
-        start: "10:00",
-        end: "11:00",
-        name: "misc event",
-        description: "description",
-      },
     ],
   ];
 
@@ -244,26 +290,35 @@ const Schedule2 = () => {
         <h1 className="text-4xl text-center p-2 text-sfPink font-bold">
           Schedule
         </h1>
+        <h1 className="text-center">
+          Disclamer: Some workshops on day 1 have overlapping times
+        </h1>
       </div>
 
       <div className="flex justify-center gap-2 p-5">
         <div
           onClick={() => setDay(0)}
-          className="flex flex-col w-20 h-20 bg-sfDarkBlue rounded-xl items-center justify-center cursor-pointer hover:scale-105 duration-100 border border-sfBloo "
+          className={`flex flex-col w-20 h-20  rounded-xl items-center justify-center cursor-pointer hover:scale-105 duration-100 border border-sfBloo ${
+            day != 0 ? "bg-sfDarkBlue" : "bg-sfBloo"
+          }`}
         >
           <h1 className="text-center text-sfPink text-2xl font-bold ">Day</h1>
           <h1 className="text-3xl font-bold text-sfPink">1</h1>
         </div>
         <div
-          className="flex flex-col w-20 h-20 bg-sfDarkBlue rounded-xl items-center justify-center cursor-pointer hover:scale-105 duration-100 border border-sfBloo "
           onClick={() => setDay(1)}
+          className={`flex flex-col w-20 h-20  rounded-xl items-center justify-center cursor-pointer hover:scale-105 duration-100 border border-sfBloo ${
+            day != 1 ? "bg-sfDarkBlue" : "bg-sfBloo"
+          }`}
         >
           <h1 className="text-center text-sfPink text-2xl font-bold ">Day</h1>
           <h1 className="text-3xl font-bold text-sfPink">2</h1>
         </div>
         <div
           onClick={() => setDay(2)}
-          className="flex flex-col w-20 h-20 bg-sfDarkBlue rounded-xl items-center justify-center cursor-pointer hover:scale-105 duration-100 border border-sfBloo"
+          className={`flex flex-col w-20 h-20  rounded-xl items-center justify-center cursor-pointer hover:scale-105 duration-100 border border-sfBloo ${
+            day != 2 ? "bg-sfDarkBlue" : "bg-sfBloo"
+          }`}
         >
           <h1 className="text-center text-sfPink text-2xl font-bold ">Day</h1>
           <h1 className="text-3xl font-bold text-sfPink">3</h1>
@@ -272,31 +327,41 @@ const Schedule2 = () => {
       <div className="flex flex-wrap gap-2 justify-center  ">
         <button
           onClick={() => setTypes(0)}
-          className="border rounded-2xl p-2 border-sfBloo bg-sfDarkBlue"
+          className={`border rounded-2xl p-2 border-sfBloo bg-sfDarkBlue ${
+            types != 0 ? "bg-sfDarkBlue" : "bg-sfBloo"
+          } ${date[0].length === 0 ? "hidden" : ""} `}
         >
           General
         </button>
         <button
           onClick={() => setTypes(1)}
-          className="border rounded-2xl p-2 border-sfBloo bg-sfDarkBlue"
+          className={`border rounded-2xl p-2 border-sfBloo bg-sfDarkBlue ${
+            types != 1 ? "bg-sfDarkBlue" : "bg-sfBloo"
+          } ${date[1].length === 0 ? "hidden" : ""}`}
         >
           Workshop 1
         </button>
         <button
           onClick={() => setTypes(2)}
-          className="border rounded-2xl p-2 border-sfBloo bg-sfDarkBlue"
+          className={`border rounded-2xl p-2 border-sfBloo bg-sfDarkBlue ${
+            types != 2 ? "bg-sfDarkBlue" : "bg-sfBloo"
+          } ${date[2].length === 0 ? "hidden" : ""}`}
         >
           Workshop 2
         </button>
         <button
           onClick={() => setTypes(3)}
-          className="border rounded-2xl p-2 border-sfBloo bg-sfDarkBlue"
+          className={`border rounded-2xl p-2 border-sfBloo bg-sfDarkBlue ${
+            types != 3 ? "bg-sfDarkBlue" : "bg-sfBloo"
+          } ${date[3].length === 0 ? "hidden" : ""}`}
         >
           Sponsors
         </button>
         <button
           onClick={() => setTypes(4)}
-          className="border rounded-2xl p-2 border-sfBloo bg-sfDarkBlue"
+          className={`border rounded-2xl p-2 border-sfBloo bg-sfDarkBlue ${
+            types != 4 ? "bg-sfDarkBlue" : "bg-sfBloo"
+          } ${date[4].length === 0 ? "hidden" : ""}`}
         >
           Events
         </button>
@@ -309,6 +374,7 @@ const Schedule2 = () => {
             end={item2.end}
             name={item2.name}
             description={item2.description}
+            key={index2}
           />
         ))}
       </div>
