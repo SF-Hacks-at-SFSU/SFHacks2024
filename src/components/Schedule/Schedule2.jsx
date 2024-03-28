@@ -275,6 +275,11 @@ const Schedule2 = () => {
   const [day, setDay] = useState(0);
   const [types, setTypes] = useState(0);
 
+  const handleDateChange = (date) => {
+    setDay(date);
+    setTypes(0);
+  };
+
   let date;
   if (day === 0) {
     date = day1;
@@ -297,7 +302,7 @@ const Schedule2 = () => {
 
       <div className="flex justify-center gap-2 p-5">
         <div
-          onClick={() => setDay(0)}
+          onClick={() => handleDateChange(0)}
           className={`flex flex-col w-20 h-20  rounded-xl items-center justify-center cursor-pointer hover:scale-105 duration-100 border border-sfBloo ${
             day != 0 ? "bg-sfDarkBlue" : "bg-sfBloo"
           }`}
@@ -306,7 +311,7 @@ const Schedule2 = () => {
           <h1 className="text-3xl font-bold text-sfPink">1</h1>
         </div>
         <div
-          onClick={() => setDay(1)}
+          onClick={() => handleDateChange(1)}
           className={`flex flex-col w-20 h-20  rounded-xl items-center justify-center cursor-pointer hover:scale-105 duration-100 border border-sfBloo ${
             day != 1 ? "bg-sfDarkBlue" : "bg-sfBloo"
           }`}
@@ -315,7 +320,7 @@ const Schedule2 = () => {
           <h1 className="text-3xl font-bold text-sfPink">2</h1>
         </div>
         <div
-          onClick={() => setDay(2)}
+          onClick={() => handleDateChange(2)}
           className={`flex flex-col w-20 h-20  rounded-xl items-center justify-center cursor-pointer hover:scale-105 duration-100 border border-sfBloo ${
             day != 2 ? "bg-sfDarkBlue" : "bg-sfBloo"
           }`}
