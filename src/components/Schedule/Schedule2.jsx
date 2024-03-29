@@ -92,12 +92,6 @@ const Schedule2 = () => {
         name: "Team Bulding Activity ",
         description: "Ice Breakers/Scavenger Hunt",
       },
-      {
-        start: "12:00",
-        end: "9:30",
-        name: "Team Bulding Activity ",
-        description: "Ice Breakers/Scavenger Hunt",
-      },
     ],
   ];
   const day2 = [

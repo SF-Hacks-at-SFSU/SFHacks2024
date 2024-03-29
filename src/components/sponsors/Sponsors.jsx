@@ -3,7 +3,6 @@ import SponsorUsForum from "./SponsorUsForum";
 import "./sponsors.css";
 
 const Sponsors = () => {
-
   const smallSponsorsSet1 = [
     {
       id: 1,
@@ -68,10 +67,15 @@ const Sponsors = () => {
       path: "/sponsor-logos/small-logos/Zuora_logo.png",
       link: "https://www.zuora.com/",
     },
-  ]
+    {
+      id: 6,
+      name: "Innovation",
+      path: "/sponsor-logos/small-logos/Zuora_logo.png",
+      link: "https://www.zuora.com/",
+    },
+  ];
 
   const smallSponsorsSet3 = [
-    
     {
       id: 1,
       name: "Marvell",
@@ -88,96 +92,107 @@ const Sponsors = () => {
       id: 3,
       name: "Celcius",
       path: "/sponsor-logos/small-logos/Celcius_logo.png",
-      link: "https://www.celsius.com/"
+      link: "https://www.celsius.com/",
     },
     {
       id: 4,
       name: "Echo3D",
       path: "/sponsor-logos/small-logos/Echo3D_logo.png",
-      link: "https://www.echo3d.com/"
+      link: "https://www.echo3d.com/",
     },
     {
       id: 5,
       name: "VerbWire",
       path: "/sponsor-logos/small-logos/Verb_logo.svg",
-      link: "https://www.verbwire.com/"
+      link: "https://www.verbwire.com/",
     },
-  ]
+  ];
 
   const smallSponsorsSet4 = [
     {
       id: 1,
       name: "MongoDb",
       path: "/sponsor-logos/small-logos/MongoDB_White.svg",
-      link: "https://www.mongodb.com/"
+      link: "https://www.mongodb.com/",
     },
     {
       id: 2,
       name: "Stand Out Stickers",
       path: "/sponsor-logos/small-logos/stand-out-stickers-logo.png",
-      link: "https://www.standoutstickers.com/?utm_campaign=events-league-organizers-fall2023&utm_medium=email&utm_source=customerio-zoho_creator_-_standout_sticker_intro"
+      link: "https://www.standoutstickers.com/?utm_campaign=events-league-organizers-fall2023&utm_medium=email&utm_source=customerio-zoho_creator_-_standout_sticker_intro",
     },
     {
       id: 3,
       name: "Desmos",
       path: "/sponsor-logos/small-logos/Desmos_logo.svg",
-      link: "https://www.desmos.com/"
+      link: "https://www.desmos.com/",
     },
     {
       id: 4,
       name: "Games for love",
       path: "/sponsor-logos/small-logos/Games_For_Love_logo.png",
-      link: "https://gamesforlove.org/"
+      link: "https://gamesforlove.org/",
     },
     {
       id: 5,
       name: "Ikes Sandwiches",
       path: "/sponsor-logos/small-logos/Ikes_logo.svg",
-      link: "https://www.ikessandwich.com/"
+      link: "https://www.ikessandwich.com/",
     },
-  ]
+  ];
 
   const smallSponsorsSet5 = [
     {
       id: 1,
       name: "Notion",
       path: "/sponsor-logos/small-logos/Notion_logo.png",
-      link: "https://www.notion.so/"
+      link: "https://www.notion.so/",
     },
     {
       id: 2,
       name: "Art of Problem Solving",
       path: "/sponsor-logos/small-logos/AOPS_Logo.png",
-      link: "https://artofproblemsolving.com/"
+      link: "https://artofproblemsolving.com/",
     },
     {
       id: 3,
       name: "Google Cloud",
       path: "/sponsor-logos/gcloud.png",
-      link: "https://cloud.google.com/"
+      link: "https://cloud.google.com/",
     },
     {
       id: 4,
       name: "Associated Students",
       path: "/sponsor-logos/AS.png",
-      link: "https://asi.sfsu.edu/"
+      link: "https://asi.sfsu.edu/",
     },
-  ]
+  ];
 
   const mediumSponsors = [
-      {
-        id: 1,
-        name: "COZE",
-        path: "/sponsor-logos/medium-logos/ByteDance_logo.png",
-        link: "https://www.coze.com/",
-      },
-      {
-        id: 2,
-        name: "COSE",
-        path: "/sponsor-logos/medium-logos/COSE_logo.png",
-        link: "https://cose.sfsu.edu/",
-      },
-      
+    {
+      id: 1,
+      name: "COZE",
+      path: "/sponsor-logos/medium-logos/ByteDance_logo.png",
+      link: "https://www.coze.com/",
+    },
+    {
+      id: 2,
+      name: "COSE",
+      path: "/sponsor-logos/medium-logos/COSE_logo.png",
+      link: "https://cose.sfsu.edu/",
+    },
+    {
+      id: 3,
+      name: "Innovation/entrep",
+      path: "/sponsor-logos/medium-logos/innovation.webp",
+      link: "https://cob.sfsu.edu/initiatives-centers/innovation-entrepreneurship-programs-community-engagement",
+    },
+    {
+      id: 4,
+      name: "Lam-Lerson",
+      path: "/sponsor-logos/medium-logos/lamLerson.png",
+      link: "https://cob.sfsu.edu/initiatives-centers/emerging-technologies",
+    },
   ];
 
   const largeSponsors = [
@@ -213,7 +228,7 @@ const Sponsors = () => {
     },
   ];
 
-  const  xLargeSponsors = [
+  const xLargeSponsors = [
     {
       id: 1,
       name: "Paul Klein",
@@ -228,7 +243,7 @@ const Sponsors = () => {
     },
   ];
 
-/*---------------------------------------------------------------------- */
+  /*---------------------------------------------------------------------- */
 
   const smallSponsorsSet1Map = smallSponsorsSet1.map((x) => (
     <a target="_blank" key={x.id} href={x.link}>
@@ -292,28 +307,28 @@ const Sponsors = () => {
         </h1>
         <div className="flex flex-col justify-center sponsors-container">
           <div className="flex flex-row items-center x-large-sponsors">
-              {xLargeSponsorsMap}
+            {xLargeSponsorsMap}
           </div>
           <div className="flex flex-row items-center large-sponsors">
-              {largeSponsorsMap}
+            {largeSponsorsMap}
           </div>
           <div className="flex flex-row items-center medium-sponsors">
-              {mediumSponsorsMap}
+            {mediumSponsorsMap}
           </div>
           <div className="flex flex-row items-center small-sponsors">
-              {smallSponsorsSet1Map}
+            {smallSponsorsSet1Map}
           </div>
           <div className="flex flex-row items-center small-sponsors">
-              {smallSponsorsSet2Map}
+            {smallSponsorsSet2Map}
           </div>
           <div className="flex flex-row items-center small-sponsors">
-              {smallSponsorsSet3Map}
+            {smallSponsorsSet3Map}
           </div>
           <div className="flex flex-row items-center small-sponsors">
-              {smallSponsorsSet4Map}
+            {smallSponsorsSet4Map}
           </div>
           <div className="flex flex-row items-center m-3 small-sponsors">
-              {smallSponsorsSet5Map}
+            {smallSponsorsSet5Map}
           </div>
         </div>
       </div>
