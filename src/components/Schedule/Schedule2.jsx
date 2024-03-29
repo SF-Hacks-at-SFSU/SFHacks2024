@@ -232,12 +232,7 @@ const Schedule2 = () => {
         name: "Project Submission deadline",
         description: "Submit your project by 11:30 AM",
       },
-      {
-        start: "11:30 AM",
-        end: "1:00 PM",
-        name: "Project Judging",
-        description: "Relax and take a breather while your project gets judged",
-      },
+
       {
         start: "11:30 AM",
         end: "1:00 PM",
@@ -262,6 +257,13 @@ const Schedule2 = () => {
     ],
     [
       // misc
+      {
+        start: "1:10 PM",
+        end: "2:00 PM",
+        name: "Alumni Panel",
+        description:
+          "Hear from Sf State Alumni who are deep in the tech industry",
+      },
     ],
   ];
 
