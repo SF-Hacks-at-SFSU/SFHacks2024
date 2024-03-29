@@ -296,7 +296,7 @@ const Schedule2 = () => {
           Schedule
         </h1>
         <h1 className="text-center">
-          Disclamer: Some workshops on day 1 have overlapping times
+          Disclaimer: Some workshops on day 1 have overlapping times
         </h1>
       </div>
 
@@ -332,7 +332,7 @@ const Schedule2 = () => {
       <div className="flex flex-wrap gap-2 justify-center  ">
         <button
           onClick={() => setTypes(0)}
-          className={`border rounded-2xl p-2 border-sfBloo bg-sfDarkBlue ${
+          className={`border rounded-2xl p-2 border-sfBloo  ${
             types != 0 ? "bg-sfDarkBlue" : "bg-sfBloo"
           } ${date[0].length === 0 ? "hidden" : ""} `}
         >
@@ -340,7 +340,7 @@ const Schedule2 = () => {
         </button>
         <button
           onClick={() => setTypes(1)}
-          className={`border rounded-2xl p-2 border-sfBloo bg-sfDarkBlue ${
+          className={`border rounded-2xl p-2 border-sfBloo  ${
             types != 1 ? "bg-sfDarkBlue" : "bg-sfBloo"
           } ${date[1].length === 0 ? "hidden" : ""}`}
         >
@@ -348,7 +348,7 @@ const Schedule2 = () => {
         </button>
         <button
           onClick={() => setTypes(2)}
-          className={`border rounded-2xl p-2 border-sfBloo bg-sfDarkBlue ${
+          className={`border rounded-2xl p-2 border-sfBloo  ${
             types != 2 ? "bg-sfDarkBlue" : "bg-sfBloo"
           } ${date[2].length === 0 ? "hidden" : ""}`}
         >
@@ -356,7 +356,7 @@ const Schedule2 = () => {
         </button>
         <button
           onClick={() => setTypes(3)}
-          className={`border rounded-2xl p-2 border-sfBloo bg-sfDarkBlue ${
+          className={`border rounded-2xl p-2 border-sfBloo  ${
             types != 3 ? "bg-sfDarkBlue" : "bg-sfBloo"
           } ${date[3].length === 0 ? "hidden" : ""}`}
         >
@@ -364,7 +364,7 @@ const Schedule2 = () => {
         </button>
         <button
           onClick={() => setTypes(4)}
-          className={`border rounded-2xl p-2 border-sfBloo bg-sfDarkBlue ${
+          className={`border rounded-2xl p-2 border-sfBloo  ${
             types != 4 ? "bg-sfDarkBlue" : "bg-sfBloo"
           } ${date[4].length === 0 ? "hidden" : ""}`}
         >
