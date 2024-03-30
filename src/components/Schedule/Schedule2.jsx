@@ -240,6 +240,12 @@ const Schedule2 = () => {
         description: "Relax and take a breather while your project gets judged",
       },
       {
+        start: "1:10PM",
+        end: "2:00PM",
+        name: "Alumni Panel/Event",
+        description: "Interact with some of our Graduates!",
+      },
+      {
         start: "2:00 PM",
         end: "4:00 PM",
         name: "Winners revealed/Interview",
