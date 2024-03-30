@@ -67,12 +67,6 @@ const Sponsors = () => {
       path: "/sponsor-logos/small-logos/Zuora_logo.png",
       link: "https://www.zuora.com/",
     },
-    {
-      id: 6,
-      name: "Innovation",
-      path: "/sponsor-logos/small-logos/Zuora_logo.png",
-      link: "https://www.zuora.com/",
-    },
   ];
 
   const smallSponsorsSet3 = [
