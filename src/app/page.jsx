@@ -41,6 +41,12 @@ export default function Home() {
                 className="bg-sfLightBlue mt-5 p-4 text-lg font-semibold rounded-full text-sfPink"
               >Join Discord</button>
             </a>
+            <a href="https://bit.ly/sfhacks2024-handbook" target="_blank">
+              <button
+                type="button"
+                className="bg-sfPink mt-5 p-4 text-lg font-semibold rounded-full text-sfLightBlue"
+              >Hacker's Handbook</button>
+            </a>
           </div>
 
         </div>
