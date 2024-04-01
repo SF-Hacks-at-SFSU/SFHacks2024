@@ -36,8 +36,11 @@ export default function Tracks() {
         )}
       </div>
       <p className="sm:block md:hidden mt-5 text-md text-[#868C89]">(scroll right)</p>
-      <p className="mt-20 md:text-4xl text-2xl text-[#FBF3DB]">Challenge Theme Track to be announced April 1st...</p>
-      <p className="text-[#868C89]">Any project that attempts a challenge track will automatically receive a slight increase in the judging categories.</p>
+      <p className="mt-20 md:text-4xl text-2xl text-[#FBF3DB]">City Life Challenge Tracks</p>
+      <p className="my-10 md:text-2xl text-xl text-[#FBF3DB]">How can we improve life in SF?</p>
+      <p className="text-[#868C89]">The City Life Challenge Track encourages you to find innovative ways to tackle issues faced by everyday urban communities like in here San Francisco. 
+                                      Topics include transportation, housing, offices, restaurants, and so on.
+                                      Any project that attempts a challenge track will automatically receive a slight increase in the judging categories. What that slight increase is TBD</p>
     </div>
   );
 }
