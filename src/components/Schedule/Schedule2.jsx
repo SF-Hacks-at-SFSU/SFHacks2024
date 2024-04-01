@@ -9,7 +9,7 @@ const Schedule2 = () => {
     [
       //general
       {
-        start: "2:45 PM",
+        start: "2:30 PM",
         end: "3:30 PM",
         name: "Check Ins",
         description: "Hackers will check in",
@@ -20,17 +20,12 @@ const Schedule2 = () => {
         name: "Opening Ceremony",
         description: "The Hacking Begins!",
       },
-      {
-        start: "6:30 PM",
-        end: "7:00 PM",
-        name: "Interview Time",
-        description: "Questions about projects",
-      },
+
       {
         start: "7:30 PM",
         end: "8:00 PM",
         name: "Dinner",
-        description: "Devour some amazing food  ",
+        description: "Devour some amazing food from Taqueria (VG, HA)",
       },
       {
         start: "11:00 PM",
@@ -44,20 +39,22 @@ const Schedule2 = () => {
       {
         start: "4:00 PM",
         end: "5:00 PM",
-        name: "Coze Workshop",
-        description: "With Joshua Alphonse ",
+        name: "Coze: AI Bot Creation w/ Joshua Alphonse",
+        description:
+          "Next-generation AI chatbot building platform. Quickly create bots without coding and publish them on various platforms",
       },
       {
         start: "5:15 PM",
         end: "6:15 PM",
-        name: "Mongo DB Workshop ",
-        description: "With Mark Kim",
+        name: "Mongo DB: Representing Meaning In Numbers With & Looking Them Up ",
+        description:
+          "Master MongoDB and vector search to enhance your project with efficient data retrieval.",
       },
       {
         start: "6:30 PM",
         end: "7:30 PM",
-        name: "Notion Workshop ",
-        description: "With Huy",
+        name: "Notion Workshop w/ Giahuy Dang ",
+        description: "Learn how to increase your productivity using Notion.",
       },
     ],
     [
@@ -65,20 +62,21 @@ const Schedule2 = () => {
       {
         start: "4:00 PM",
         end: "5:00 PM",
-        name: "Github Workshop",
-        description: "With MLH",
+        name: "Github Copilot Workshop with MLH",
+        description:
+          "Learn about how to use GitHub Copilot from MLH Coach Mansi.",
       },
       {
         start: "5:15 PM",
         end: "6:15 PM",
-        name: "Neurelo workshop",
-        description: "with Chirag Shah",
+        name: "Neurelo Workshop w/ Chirag Shah",
+        description: "",
       },
       {
         start: "6:30 PM",
         end: "7:30 PM",
-        name: "Fireworks.Ai",
-        description: "with Raymond Thai",
+        name: "Fireworks AI Workshop w/ Raymond Thai",
+        description: "",
       },
     ],
     [
@@ -107,39 +105,35 @@ const Schedule2 = () => {
         start: "9:00 AM",
         end: "9:30 AM",
         name: "Breakfast",
-        description: "BREAK your FAST",
+        description: "Noah’s Bagel (VG, HA)",
       },
       {
         start: "1:00 PM",
         end: "2:00 PM",
         name: "Lunch",
-        description: "Obliderate your hunger with some Costo Pizza",
+        description:
+          "Obliderate your hunger with Ike’s Sandwhiches (VG, V, HA)",
       },
       {
         start: "2:00 PM",
         end: "3:30 PM",
-        name: "Women in Tech Panel",
+        name: "Women In Tech Panel",
         description:
-          "Celebrate the contributions of women who shape the future of our technology.",
+          "Hear about our panelist's experiences as women in the technology industry.",
       },
-      {
-        start: "4:00 PM",
-        end: "4:30 PM",
-        name: "Workshop Interview Time",
-        description: "[Description still pending]",
-      },
+
       {
         start: "6:00 PM",
         end: "7:00 PM",
-        name: "POC in tech panel",
+        name: "POC in Tech Panel",
         description:
-          "Highlighting the voices and achievements of people of color in the tech industry.",
+          "Hear about our panelist's experiences as people of color in the technology industry.",
       },
       {
         start: "8:00 PM",
         end: "9:00 PM",
         name: "Dinner",
-        description: "Feast on some of Ike's Sandwiches",
+        description: "Feast on some Costco Pizza (VG, HA)",
       },
     ],
     [
@@ -153,9 +147,8 @@ const Schedule2 = () => {
       {
         start: "5:00 PM",
         end: "6:00 PM",
-        name: "Games for Love Workshop",
-        description:
-          "Learn how to save lives by making awesome games, hosted by Jon Wolheim",
+        name: "Games for Love w/ Jon Wolheim",
+        description: "Learn how to save lives by making awesome games",
       },
       {
         start: "7:00 PM",
@@ -224,13 +217,14 @@ const Schedule2 = () => {
         start: "9:00 AM",
         end: "9:30 AM",
         name: "Breakfast",
-        description: "Enjoy some coffee and breakfast with Noah's Bagel",
+        description:
+          "Enjoy some coffee and breakfast with Noah's Bagel (VG, HA)",
       },
       {
         start: "10:30 AM",
         end: "11:00 AM",
         name: "Project Submission deadline",
-        description: "Submit your project by 11:30 AM",
+        description: "Submit your project by 11:00 AM",
       },
 
       {
@@ -239,16 +233,11 @@ const Schedule2 = () => {
         name: "Project Judging",
         description: "Relax and take a breather while your project gets judged",
       },
-      {
-        start: "1:10PM",
-        end: "2:00PM",
-        name: "Alumni Panel/Event",
-        description: "Interact with some of our Graduates!",
-      },
+
       {
         start: "2:00 PM",
         end: "4:00 PM",
-        name: "Winners revealed/Interview",
+        name: "Winners revealed",
         description: "Celebrate those who won",
       },
     ],
@@ -266,9 +255,9 @@ const Schedule2 = () => {
       {
         start: "1:10 PM",
         end: "2:00 PM",
-        name: "Alumni Panel",
+        name: "SF State Alumni Panel",
         description:
-          "Hear from Sf State Alumni who are deep in the tech industry",
+          "Hear about our panelist's experiences as alumni of San Francisco State University.",
       },
     ],
   ];
