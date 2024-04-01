@@ -61,8 +61,8 @@ const page = () => {
   }
 
   return (
-    <div className="flex flex-col bg-[bg-[#254d70]] w-full  justify-center p-36 bg-[url('/brand-assets/background-bridge.png')] bg-cover gap-5">
-      <div className=" translate-y-20">
+    <div className="flex flex-col bg-[bg-[#254d70]] w-full h-full justify-center p-36 bg-[url('/brand-assets/background-bridge.png')] bg-cover gap-5 items-center">
+      <div className=" translate-y-20 scale-150">
         <p className="text-center text-5xl  ">Project Submission Deadline</p>
         <div
           className={` flex flex-row w-auto justify-between items-center gap-[5vw] m-5`}
