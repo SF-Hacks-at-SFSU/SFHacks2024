@@ -48,6 +48,12 @@ export default function Home() {
                 className="bg-sfPink mt-5 p-4 text-lg font-semibold rounded-full text-sfLightBlue"
               >Hacker's Handbook</button>
             </a>
+            <a href="/sfhacks_map.png" target="_blank" download>
+              <button
+                type="button"
+                className="bg-sfPink mt-5 p-4 text-lg font-semibold rounded-full text-sfLightBlue xl:hidden lg:hidden md:block sm:block xs:block"
+              >Map</button>
+            </a>
           </div>
 
         </div>
