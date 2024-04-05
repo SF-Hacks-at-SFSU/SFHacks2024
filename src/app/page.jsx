@@ -18,14 +18,14 @@ export default function Home() {
           <p>Cohosted by Association of Computer Machinery (ACM) at SFSU</p>
           <h1 className={`${inter.className} text-[#ebebeb] text-center text-[4rem] not-italic leading-[normal] uppercase font-[1000]`}>SFHACKS 2024</h1>
           
-          <Countdown />
+          {/* <Countdown /> */}
           
-          <p>April 5th - 7th 2024
+          <p>April 5th - 7th 2024 @
             <a
               className="border-b hover:border-sfPink"
               href="https://www.google.com/maps/place/Student+Life+Events+Center+%2F+Annex+I/@37.7264505,-122.4847354,17z/data=!3m1!4b1!4m6!3m5!1s0x808f7da51ff323d3:0x74d61cd2d66d4dbb!8m2!3d37.7264463!4d-122.4821605!16s%2Fg%2F1hdz113p8?entry=ttu"
               target="_blank"
-            >@ SF State Annex 1</a>
+            >SF State Annex 1</a>
           </p>
 
           <p className="text-white mt-5">

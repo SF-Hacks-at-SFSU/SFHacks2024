@@ -69,8 +69,8 @@ const Schedule2 = () => {
       {
         start: "5:15 PM",
         end: "6:15 PM",
-        name: "Neurelo Workshop w/ Chirag Shah",
-        description: "",
+        name: "Neurelo Data API workshop w/ George Sumpster",
+        description: "Boost your hackathon project's speed with AI-powered auto-generated Data APIs for MongoDB and PostgreSQL",
       },
       {
         start: "6:30 PM",
