@@ -9,7 +9,7 @@ export default function CountDown() {
 
 	const Ref = useRef(null);
 
-    var countDownDate = new Date("Apr 5, 2024 00:00:00");
+    var countDownDate = new Date("Apr 7, 2024 11:00:00");
 
 	const total = Date.parse(countDownDate) - Date.parse(new Date());
 	const seconds = Math.floor((total / 1000) % 60);
@@ -31,34 +31,33 @@ export default function CountDown() {
 	}
 
 	const startTimer = (e) => {
-		let { total, days, hours, minutes, seconds } = getTimeRemaining(e);
-		
-        if (total >= 0) {
-            setTimer({days, hours, minutes, seconds});
-		}
-	}
+    let { total, days, hours, minutes, seconds } = getTimeRemaining(e);
 
-	const clearTimer = (e) => {
-
-		if (Ref.current) clearInterval(Ref.current);
-		const id = setInterval(() => {
-			startTimer(e);
-		}, 1000)
-		Ref.current = id;
-	}
-
-	useEffect(() => {
-		clearTimer(countDownDate);
-	}, []);
-
-	// Returns null on first render, so the client and server match
-	const [hydrated, setHydrated] = useState(false);
-    useEffect(() => {
-        setHydrated(true);
-    }, []);
-    if (!hydrated) {
-        return null;
+    if (total >= 0) {
+      setTimer({ days, hours, minutes, seconds });
     }
+  };
+
+  const clearTimer = (e) => {
+    if (Ref.current) clearInterval(Ref.current);
+    const id = setInterval(() => {
+      startTimer(e);
+    }, 1000);
+    Ref.current = id;
+  };
+
+  useEffect(() => {
+    clearTimer(countDownDate);
+  }, []);
+
+  // Returns null on first render, so the client and server match
+  const [hydrated, setHydrated] = useState(false);
+  useEffect(() => {
+    setHydrated(true);
+  }, []);
+  if (!hydrated) {
+    return null;
+  }
 
 	return (
 		<div className={`${inter.className} flex flex-row w-auto justify-between items-center gap-[5vw] m-5`}>

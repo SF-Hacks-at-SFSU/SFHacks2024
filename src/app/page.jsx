@@ -18,7 +18,8 @@ export default function Home() {
           <p>Cohosted by Association of Computer Machinery (ACM) at SFSU</p>
           <h1 className={`${inter.className} text-[#ebebeb] text-center text-[4rem] not-italic leading-[normal] uppercase font-[1000]`}>SFHACKS 2024</h1>
           
-          {/* <Countdown /> */}
+          <h1 className="pt-5 text-[#ebebeb] text-[1.5rem]">Project Submission Deadline:</h1>
+          <Countdown />
           
           <p>April 5th - 7th 2024 @
             <a
