@@ -139,12 +139,6 @@ const Schedule2 = () => {
     [
       //workshop1
       {
-        start: "11:00 AM",
-        end: "11:30 AM",
-        name: "Cyber Security SIG Workshop",
-        description: "Learn the fundementals of ethical hacking",
-      },
-      {
         start: "5:00 PM",
         end: "6:00 PM",
         name: "Workshop w/ Jon Wolheim: Neuroscience in Games: Applying Game Tech to Your World",
