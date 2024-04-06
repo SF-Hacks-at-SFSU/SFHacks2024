@@ -42,10 +42,16 @@ export default function Home() {
                 className="bg-sfLightBlue mt-5 p-4 text-lg font-semibold rounded-full text-sfPink"
               >Join Discord</button>
             </a>
+            <a href="https://sfhacks-2024.devpost.com/" target="_blank">
+              <button
+                type="button"
+                className="bg-sfLightBlue mt-5 p-4 text-lg font-semibold rounded-full text-sfPink"
+              >Submit on Devpost</button>
+            </a>
             <a href="https://bit.ly/sfhacks2024-handbook" target="_blank">
               <button
                 type="button"
-                className="bg-sfPink mt-5 p-4 text-lg font-semibold rounded-full text-sfLightBlue"
+                className="bg-sfLightBlue mt-5 p-4 text-lg font-semibold rounded-full text-sfPink"
               >Hacker's Handbook</button>
             </a>
             <a href="/sfhacks_map.png" target="_blank" download>
