@@ -84,18 +84,12 @@ const Sponsors = () => {
     },
     {
       id: 3,
-      name: "Celcius",
-      path: "/sponsor-logos/small-logos/Celcius_logo.png",
-      link: "https://www.celsius.com/",
-    },
-    {
-      id: 4,
       name: "Echo3D",
       path: "/sponsor-logos/small-logos/Echo3D_logo.png",
       link: "https://www.echo3d.com/",
     },
     {
-      id: 5,
+      id: 4,
       name: "VerbWire",
       path: "/sponsor-logos/small-logos/Verb_logo.svg",
       link: "https://www.verbwire.com/",
@@ -324,6 +318,7 @@ const Sponsors = () => {
           <div className="flex flex-row items-center m-3 small-sponsors">
             {smallSponsorsSet5Map}
           </div>
+          <h1 className="text-6xl py-6">Big thank you to SWE at SFSU</h1>
         </div>
       </div>
     </div>
