@@ -147,7 +147,7 @@ const Schedule2 = () => {
       {
         start: "5:00 PM",
         end: "6:00 PM",
-        name: "Games for Love w/ Jon Wolheim",
+        name: "Workshop w/ Jon Wolheim: Neuroscience in Games: Applying Game Tech to Your World",
         description: "Learn how to save lives by making awesome games",
       },
       {
@@ -171,12 +171,6 @@ const Schedule2 = () => {
         end: "10:30 AM",
         name: "Merchandise Handout",
         description: "Enjoy all of the splended goodies",
-      },
-      {
-        start: "3:00 PM",
-        end: "4:00 PM",
-        name: "K Pop event",
-        description: "Learn how to dance and sing like your favorite idol.",
       },
       {
         start: "4:00 PM",
@@ -258,6 +252,12 @@ const Schedule2 = () => {
         name: "SF State Alumni Panel",
         description:
           "Hear about our panelist's experiences as alumni of San Francisco State University.",
+      },
+      {
+        start: "2:00 PM",
+        end: "2:15 PM",
+        name: "K-Pop Dance Party",
+        description: "Learn how to dance and sing like your favorite idol.",
       },
     ],
   ];
