@@ -292,12 +292,12 @@ const Sponsors = () => {
       <div className="bg-sfDarkBlue">
         <div className="relative w-full h-32 md:h-40 lg:h-60">
           <div className="absolute inset-0 bg-event bg-cover bg-center brightness-[85%]"></div>
-          <h1 className="text-center font-bold text-3xl text-white relative flex items-center justify-center h-full md:text-6xl lg:text-8xl z-0">
+          <h1 className="text-center font-bold text-4xl text-white relative flex items-center justify-center h-full md:text-6xl lg:text-8xl z-0">
             Sponsors
           </h1>
         </div>
-        <h1 className="text-center font-bold text-4xl text-white relative flex items-center justify-center h-full m-5">
-          Thank you to our sponsors:
+        <h1 className="text-center text-gray-300 text-md md:text-3xl lg:text-4xl relative flex items-center justify-center h-full m-5 md:m-10">
+          Thank you to our sponsors
         </h1>
         <div className="flex flex-col justify-center sponsors-container">
           <div className="flex flex-row items-center x-large-sponsors">

@@ -113,11 +113,11 @@ const AboutUs = () => {
     {
       name: "Alex",
       position: "Logistics",
-      img: "/team/alex.jpg"
+      img: "/team/alex.jpg",
     },
   ];
   return (
-    <>
+    <div className="mt-10 ">
       <p className="text-center text-7xl text-white">About Us</p>
 
       <p className="text-center text-2xl text-white p-6 ">
@@ -137,7 +137,7 @@ const AboutUs = () => {
           />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
