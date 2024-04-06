@@ -318,7 +318,6 @@ const Sponsors = () => {
           <div className="flex flex-row items-center m-3 small-sponsors">
             {smallSponsorsSet5Map}
           </div>
-          <h1 className="text-6xl py-6">Big thank you to SWE at SFSU</h1>
         </div>
       </div>
     </div>
