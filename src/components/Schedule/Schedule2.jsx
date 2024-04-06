@@ -116,8 +116,8 @@ const Schedule2 = () => {
       },
       {
         start: "2:00 PM",
-        end: "3:30 PM",
-        name: "Women In Tech Panel",
+        end: "3:00 PM",
+        name: "Women In Tech Panel (Golden Gate Park Room)",
         description:
           "Hear about our panelist's experiences as women in the technology industry.",
       },
@@ -125,7 +125,7 @@ const Schedule2 = () => {
       {
         start: "6:00 PM",
         end: "7:00 PM",
-        name: "POC in Tech Panel",
+        name: "POC in Tech Panel (Treasure Island Room)",
         description:
           "Hear about our panelist's experiences as people of color in the technology industry.",
       },
@@ -141,13 +141,13 @@ const Schedule2 = () => {
       {
         start: "5:00 PM",
         end: "6:00 PM",
-        name: "Workshop w/ Jon Wolheim: Neuroscience in Games: Applying Game Tech to Your World",
+        name: "Workshop w/ Jon Wolheim: Neuroscience in Games: Applying Game Tech to Your World (Pier 39 Room)",
         description: "Learn how to save lives by making awesome games",
       },
       {
         start: "7:00 PM",
         end: "10:30 PM",
-        name: "Game Dev SIG workshop",
+        name: "Game Dev SIG workshop (Golden Gate Park Room)",
         description:
           "Learn the basics of creating groundbreaking gaming experiences",
       },
@@ -167,27 +167,33 @@ const Schedule2 = () => {
         description: "Enjoy all of the splended goodies",
       },
       {
+        start: "3:00PM",
+        end: "4:00PM",
+        name: "Would You Rather (Treasure Island Room)",
+        description: "Enjoy all of the splended goodies",
+      },
+      {
         start: "4:00 PM",
         end: "5:00 PM",
-        name: "Mini-event: Painting/Watercolor",
+        name: "Mini-event: Painting/Watercolor (Golden Gate Park Room)",
         description: "Hone in your artistic side and learn painting techniques",
       },
       {
         start: "9:00 PM",
         end: "9:30 PM",
-        name: "Karaoke",
+        name: "Karaoke (Golden Gate Park Room)",
         description: "Show off your singing skills.",
       },
       {
         start: "11:00 PM",
         end: "11:30 PM",
-        name: "Mini-event: Paper airplanes",
+        name: "Mini-event: Paper airplanes (Hallway)",
         description: "Learn how to make paper airplanes",
       },
       {
         start: "2:00 AM",
         end: "3:00 AM",
-        name: "Mini-event: Board Game night",
+        name: "Mini-event: Board Game night (Tables in the Main Annex)",
         description: "Stay up late and play some games",
       },
     ],
@@ -243,14 +249,14 @@ const Schedule2 = () => {
       {
         start: "1:10 PM",
         end: "2:00 PM",
-        name: "SF State Alumni Panel",
+        name: "SF State Alumni Panel (Main stage)",
         description:
           "Hear about our panelist's experiences as alumni of San Francisco State University.",
       },
       {
         start: "2:00 PM",
         end: "2:15 PM",
-        name: "K-Pop Dance Party",
+        name: "Dance Party",
         description: "Learn how to dance and sing like your favorite idol.",
       },
     ],
