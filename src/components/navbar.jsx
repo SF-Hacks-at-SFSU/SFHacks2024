@@ -56,7 +56,8 @@ const Navbar = () => {
 
         <Link
           className="transition duration-200 ease-in-out delay-150 border-b-4 hover:border-[#FFF5D9] border-transparent xl:block lg:block md:hidden sm:hidden xs:hidden"
-          href="/map/"
+          href="/sfhacks_map.png"
+          target="_blank"
         >
           Map
         </Link>
