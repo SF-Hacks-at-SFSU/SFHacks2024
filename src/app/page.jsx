@@ -23,9 +23,9 @@ export default function Home() {
             SFHACKS 2024
           </h1>
 
-          {/* <h1 className="text-[#ebebeb] text-[1.5rem]">
-            See you next time!!!
-          </h1> */}
+          <h1 className="text-[#ebebeb] text-[1.5rem]">
+            See you next year!!!
+          </h1>
 
           <p>
             April 5th - 7th 2024 @
