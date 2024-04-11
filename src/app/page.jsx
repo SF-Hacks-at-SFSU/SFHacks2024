@@ -20,14 +20,14 @@ export default function Home() {
           <h1
             className={` text-[#ebebeb] text-center text-[4rem] not-italic leading-[normal] uppercase font-[1000]`}
           >
-            SFHACKS 2024
+            SFHACKS
           </h1>
 
           <h1 className="text-[#ebebeb] text-[1.5rem]">
             See you next year!!!
           </h1>
 
-          <p>
+          {/* <p>
             April 5th - 7th 2024 @
             <a
               className="border-b hover:border-sfPink"
@@ -42,7 +42,7 @@ export default function Home() {
             Our organization's purpose is to plan and host California's most
             talented collegiate hackers, designers, and developers, to a 3 day
             hackathon. Join us next spring to kickoff SF Hacks 2024!
-          </p>
+          </p> */}
 
           <div className="flex flex-row flex-wrap justify-center gap-5 sm:mb-10">
             <a href="https://discord.gg/P5PsDR6G7W" target="_blank">
@@ -53,43 +53,56 @@ export default function Home() {
                 Join Discord
               </button>
             </a>
-            <a href="https://sfhacks-2024.devpost.com/" target="_blank">
+
+            {/* <a
+              href="mailto:sfhacksteam@gmail.com"
+              className=" pointer-events-auto text-sfPink hover:underline"
+            >
               <button
                 type="button"
                 className="bg-sfLightBlue mt-5 p-4 text-lg font-semibold rounded-full text-sfPink"
               >
-                Submit on Devpost
+                Support
+              </button>
+            </a> */}
+
+            <a href="https://sfhacks-2024.devpost.com/project-gallery" target="_blank">
+              <button
+                type="button"
+                className="bg-sfLightBlue mt-5 p-4 text-lg font-semibold rounded-full text-sfPink"
+              >
+                2024 Winners
               </button>
             </a>
-            <a href="https://bit.ly/sfhacks2024-handbook" target="_blank">
+            {/* <a href="https://bit.ly/sfhacks2024-handbook" target="_blank">
               <button
                 type="button"
                 className="bg-sfLightBlue mt-5 p-4 text-lg font-semibold rounded-full text-sfPink"
               >
                 Hacker's Handbook
               </button>
-            </a>
-            <a href="/sfhacks_map.png" target="_blank" download>
+            </a> */}
+            {/* <a href="/sfhacks_map.png" target="_blank" download>
               <button
                 type="button"
                 className="bg-sfPink mt-5 p-4 text-lg font-semibold rounded-full text-sfLightBlue xl:hidden lg:hidden md:block sm:block xs:block"
               >
                 Map
               </button>
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
 
-      <section className="bg-[#0E1E2C]">
+      {/* <section className="bg-[#0E1E2C]">
         <Tracks />
-      </section>
-      <section className="bg-[#254d70]">
+      </section> */}
+      <section className="bg-sfBloo">
         <FAQ />
       </section>
-      <section className="bg-sfDarkBlue">
+      {/* <section className="bg-sfDarkBlue">
         <Sponsors />
-      </section>
+      </section> */}
       <section className="  bg-sfBloo">
         <AboutUs />
       </section>
