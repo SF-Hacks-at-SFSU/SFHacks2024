@@ -3,8 +3,8 @@ import Footer from "../components/footer";
 import "./globals.css";
 
 export const metadata = {
-  title: "SF Hacks 2024",
-  description: "SFSU's 2024 annual hackathon ()",
+  title: "SF Hacks",
+  description: "SFSU's annual hackathon ()",
 };
 
 export default function RootLayout({ children }) {

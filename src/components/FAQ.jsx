@@ -59,22 +59,22 @@ const data = [
     question: 'Who can attend and do I have to know coding?',
     answer: 'No prior knowledge of computer science is needed! We encourage all levels of coders to attend. In our events, we dedicate officers/mentors/tutors to help all hackers find their beginnings in CS.'
   },
-  {
-    question: 'When does the event start?',
-    answer: 'The event starts on April 5th and last until April 7th.'
-  },
-  {
-    question: 'Where is the venue located?',
-    answer: 'The event is located at Annex I, 1 N State Dr, San Francisco, CA 94132'
-  },
-  {
-    question: 'What’s the cost for attendance?',
-    answer: 'It’s a free event hosted by the SF Hacks Team at San Francisco State University.'
-  },
-  {
-    question: 'Is there travel reimbursements?',
-    answer: 'Unfortunately, we will not be able to reimburse travel costs.'
-  },
+  // {
+  //   question: 'When does the event start?',
+  //   answer: 'The event starts on April 5th and last until April 7th.'
+  // },
+  // {
+  //   question: 'Where is the venue located?',
+  //   answer: 'The event is located at Annex I, 1 N State Dr, San Francisco, CA 94132'
+  // },
+  // {
+  //   question: 'What’s the cost for attendance?',
+  //   answer: 'It’s a free event hosted by the SF Hacks Team at San Francisco State University.'
+  // },
+  // {
+  //   question: 'Is there travel reimbursements?',
+  //   answer: 'Unfortunately, we will not be able to reimburse travel costs.'
+  // },
   {
     question: 'Do I work by myself or with teams?',
     answer: 'You can work either in a solo project, or you can choose to work with other students as a team.'
